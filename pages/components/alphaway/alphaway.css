@@ -1,0 +1,349 @@
+.head--section {
+    background: url(./Assets/circlebg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.headline--alpha {
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    margin-top: 840px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    /* Zinc 400 */
+    
+    color: #A1A1AA;
+
+
+}
+
+.line-2 {
+    width: 100%;
+    height: 0px;
+    border: 1px solid #52525B;
+}
+
+
+p {
+    margin: 0;
+}
+
+.title-3 {
+    font-family: 'Basement Grotesque';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F4F4F5;
+    margin-top: 56px;
+    margin-bottom: 56px;
+}
+
+.line {
+    width: 541px;
+height: 0px;
+
+border: 1px solid #52525B;
+
+/* Inside auto layout */
+
+
+}
+
+
+
+
+.grid-new {
+    width: 100%;
+    height: 1261px;
+    display: flex;
+}
+
+
+.rows {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 292px;
+    width: 100%;
+    border-right: 1px solid #A1A1AA;
+}
+
+.cal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.title-row1 {
+width: 540px;
+height: 47px;
+font-family: 'Basement Grotesque';
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 130%;
+/* identical to box height, or 47px */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+margin-top: 112px;
+}
+
+.title-row2 {
+width: 525px;
+height: 47px;
+left: 80px;
+top: 1627px;
+font-family: 'Basement Grotesque';
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 130%;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.title-row3 {
+    width: 600px;
+    height: 47px;
+    font-family: 'Basement Grotesque';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+
+.description-cal1 {
+width: 800px;
+height: 225px;
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 150%;
+color: #A1A1AA;
+margin-top: 112px;
+}
+
+
+
+.description-cal2 {
+    width: 800px;
+    height: 360px;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 150%;
+    color: #A1A1AA;
+
+}
+
+
+.description-cal3 {
+    width: 800px;
+    height: 180px;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 150%;
+    color: #A1A1AA;
+
+}
+
+
+
+
+
+.line-divide {
+    width: 1920px;
+height: 0px;
+left: 1920px;
+top: 2293px;
+margin: 0;
+
+border: 1px solid #3F3F46;
+transform: rotate(180deg);
+}
+
+
+
+/* text animation alpha styles */
+
+.animated-alpha {
+    background: #0E0E0E;
+    width: 100%;
+    height: 628px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.frame {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.rect1 {
+    width: 123px;
+    height: 20px;
+}
+
+
+.rect {
+    width: 123px;
+    height: 123px;
+    background: #FFFFFF;
+    opacity: 0;
+    filter: blur(80px);
+    transition: all 0.2s ease-in-out;
+    overflow: hidden;
+}
+
+.rect:hover {
+    opacity: 1;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+
+.logoname {
+    position: relative;
+    width: 1351px;
+    height: 199px;
+    top: 296px;
+    font-family: "Basement Grotesque";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 166px;
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0E0E0E;
+    z-index: 99;
+    pointer-events: none;
+}
+
+.logoname.rect:hover {
+    opacity: 1;
+}
+
+.logocenter img {
+    width: 62px;
+    height: 54px;
+}
+
+
+
+/* grid two styles */
+
+.grid-new2 {
+    width: 100%;
+    height: 654px;
+    display: flex;
+}
+
+
+.row1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-right: 1px solid #A1A1AA;
+}
+
+.cal1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.title-row-1 {
+    top: 3161px;
+    font-family: 'Basement Grotesque';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: auto;
+}
+
+.title-row-2 {
+    font-family: 'Basement Grotesque';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: auto;
+}
+
+
+.description-cal-1 {
+max-width: 804px;
+height: 135px;
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 150%;
+color: #A1A1AA;
+margin: auto;
+}
+
+.description-cal-2 {
+    max-width: 804px;
+    height: 135px;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 150%;
+    color: #A1A1AA;
+    margin: auto;
+}
+
+
+.alpha {
+    position: relative;
+    width: 1248px;
+    height: 36px;
+    left: 335px;
+    top: 376px;
+    
+    font-family: 'Basement Grotesque';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    z-index: -99;
+}
