@@ -9,8 +9,8 @@ function Carousal() {
   };
 
   return (
-    <div className='wrap--review'>
-      <Carousel className="testemonial" controls={false} indicators={false} activeIndex={index} onSelect={handleSelect} interval={500}>
+    <div className='w-100 flex'>
+      <Carousel className="flex flex-col"controls={false} indicators={false} activeIndex={index} onSelect={handleSelect} interval={500}>
       <Carousel.Item>
                 <div className="w-100 flex">
                     <p className="review">
