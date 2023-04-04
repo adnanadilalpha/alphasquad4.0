@@ -6,10 +6,12 @@
 .font {
     font-family: "Archivo";
     font-size: 14px;
+    line-height: 140%;
 }
 
 .Antonio {
     font-family: "Antonio";
+    line-height: 150%;
 }
 
 
@@ -25,3 +27,4 @@ border: 1px solid #52525B;
 
 
 }
+
