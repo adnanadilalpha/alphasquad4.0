@@ -18,7 +18,7 @@ const animate = (props) => {
 <div className="wrap-anima">
     <div className="animate-chart"  id="animate-1" onMouseEnter={overlay}  onMouseLeave={leave}>
         <div className="svg-wrap">
-        <p className="text-1 ">{props.title}</p>
+        <p className="text-1">{props.title}</p>
          <svg id={idd} 
          width="638"
          height="80"

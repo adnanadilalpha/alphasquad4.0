@@ -9,7 +9,7 @@ const Navbar = (props) => {
   };
 
   return (
-    <nav className="flex justify-between items-center text-white py-4 px-6 md:px-10 lg:px-16 font font-normal">
+    <nav className="flex justify-between items-center text-sm font-normal uppercase text-white py-4 px-6 md:px-10 lg:px-16 font">
       <div className="flex items-center">
       <div className="light-wrap">
       <div className={props.name}></div>
@@ -44,7 +44,7 @@ const Navbar = (props) => {
       </div>
       <div className="md:hidden">
       <button
-  className="flex items-center text-white hover:text-gray-300 focus:outline-none"
+  className="flex items-center text-white  hover:text-gray-300 focus:outline-none"
   onClick={toggleMenu}
 >
   {isOpen ? (
@@ -79,7 +79,7 @@ const Navbar = (props) => {
           <div className="absolute top-32 left-0 w-full  bg-black h-screen z-40 justify-center items-center ">
             <ul className="flex flex-col text-center justify-center">
               <li className="mb-16">
-                <Link href="/alphaway" className="text-lg font-medium text-white">
+                <Link href="/alphaway" className="text-xl font-semibold text-white">
                    <div className='flex justify-between px-4 pb-8'>
                    The Alpha way
                    <img src="../Assets/arrow.svg" alt="" />
@@ -90,7 +90,7 @@ const Navbar = (props) => {
                 </Link>
               </li>
               <li className="mb-16">
-                <Link href="/people" className="text-lg font-medium text-white">
+                <Link href="/people" className="text-xl font-semibold text-white">
                 <div className='flex justify-between px-4 pb-8'>
                 The people
                    <img src="../Assets/arrow.svg" alt="" />
@@ -100,7 +100,7 @@ const Navbar = (props) => {
                    </div>
                 </Link>
               </li>
-                <Link href="/dope" className="text-lg font-medium text-white">
+                <Link href="/dope" className="text-xl font-semibold text-white">
                 <li className="mb-16">
               <div className='flex justify-between px-4 pb-8'>
               Dope Stuff
@@ -112,7 +112,7 @@ const Navbar = (props) => {
               </li>
               </Link>
               <li>
-                <Link href="/book" className="text-lg font-medium text-white">
+                <Link href="/book" className="text-xl font-semibold text-white">
                 <div className='flex justify-between px-4 pb-8'>
                 Book a consultation
                    <img src="../Assets/arrow.svg" alt="" />
