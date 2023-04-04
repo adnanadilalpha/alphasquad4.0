@@ -7,3 +7,21 @@
     font-family: "Archivo";
     font-size: 14px;
 }
+
+.Antonio {
+    font-family: "Antonio";
+}
+
+
+/* header styles */
+
+.line {
+    width: 541px;
+height: 0px;
+
+border: 1px solid #52525B;
+
+/* Inside auto layout */
+
+
+}

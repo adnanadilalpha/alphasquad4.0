@@ -9,7 +9,7 @@ const Navbar = (props) => {
   };
 
   return (
-    <nav className="flex justify-between items-center text-white py-4 px-6 md:px-10 lg:px-16">
+    <nav className="flex justify-between items-center text-white py-4 px-6 md:px-10 lg:px-16 font font-normal">
       <div className="flex items-center">
       <div className="light-wrap">
       <div className={props.name}></div>
@@ -76,26 +76,47 @@ const Navbar = (props) => {
 </button>
 
         {isOpen && (
-          <div className="absolute top-56 left-0 w-full h-screen justify-center items-center ">
-            <ul className="flex flex-col text-center py-4">
+          <div className="absolute top-32 left-0 w-full  bg-black h-screen z-40 justify-center items-center ">
+            <ul className="flex flex-col text-center justify-center">
               <li className="mb-16">
                 <Link href="/alphaway" className="text-lg font-medium text-white">
+                   <div className='flex justify-between px-4 pb-8'>
                    The Alpha way
+                   <img src="../Assets/arrow.svg" alt="" />
+                   </div>
+                   <div className='flex justify-center items-center'>
+                   <div className='border-b border-gray-400 w-11/12'></div>
+                   </div>
                 </Link>
               </li>
               <li className="mb-16">
                 <Link href="/people" className="text-lg font-medium text-white">
-                   The people
+                <div className='flex justify-between px-4 pb-8'>
+                The people
+                   <img src="../Assets/arrow.svg" alt="" />
+                   </div>
+                   <div className='flex justify-center items-center'>
+                   <div className='border-b border-gray-400 w-11/12'></div>
+                   </div>
                 </Link>
               </li>
-              <li className="mb-16">
                 <Link href="/dope" className="text-lg font-medium text-white">
-                   Dope Stuff
-                </Link>
+                <li className="mb-16">
+              <div className='flex justify-between px-4 pb-8'>
+              Dope Stuff
+                   <img src="../Assets/arrow.svg" alt="" />
+                   </div>
+                   <div className='flex justify-center items-center'>
+                   <div className='border-b border-gray-400 w-11/12'></div>
+                   </div>
               </li>
+              </Link>
               <li>
                 <Link href="/book" className="text-lg font-medium text-white">
-                   Book a consultation
+                <div className='flex justify-between px-4 pb-8'>
+                Book a consultation
+                   <img src="../Assets/arrow.svg" alt="" />
+                   </div>
                 </Link>
               </li>
             </ul>

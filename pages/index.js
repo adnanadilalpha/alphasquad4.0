@@ -1,6 +1,11 @@
 import Head from 'next/head'
 import Navbar from './components/Navbar'
 import Header from './components/Header'
+import Clients from './components/main/Clients'
+import Feature from './components/main/Feature'
+import local from 'next/font/local'
+
+const Basement = local ({src: '../public/fonts/BasementGrotesque.otf'})
 
 export default function Home() {
   return (
@@ -11,8 +16,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
- <Navbar />
+<main className={Basement.className}>
+<Navbar />
  <Header title="big or small" subTitle="the great never settle for good"/>
+ <Clients />
+ <Feature />
+</main>
     </>
   )
 }

@@ -5,45 +5,89 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
+
 
 // import required modules
 import { Autoplay } from "swiper";
 
-const Swipeer = (props) => {
+export default function Swipeer() {
   return (
-<div className="bg-carousol">
-<div className="wrap-swiper">
-<Swiper
-        slidesPerView={"auto"}
+    <>
+      <Swiper
         spaceBetween={30}
+        centeredSlides={true}
         autoplay={{
-            delay: 1500,
-            disableOnInteraction: false,
-        }
-        }
-        modules={Autoplay}
-        className="mySwiper"
+          delay: 1000,
+          disableOnInteraction: false,
+        }}
+        modules={[Autoplay]}
+        className="mySwiper container mt-32"
       >
-      <SwiperSlide>
-      {props.content1 ? <div className="text-white">{props.content1}</div> : ""}
-      <img src={props.img1} className="w-16" alt="" />
-      </SwiperSlide>
-      <SwiperSlide>
-      {props.content2 ? <div className="text-white">{props.content2}</div> : ""}
-      <img src={props.img2} alt="" />
-      </SwiperSlide>
-      <SwiperSlide>
-      {props.content3 ? <div>{props.content3}</div> : ""}
-      <img src={props.img3} alt="" />
-      </SwiperSlide>
-      <SwiperSlide>
-      {props.content4 ? <div>{props.content4}</div> : ""}
-      <img src={props.img4} alt="" />
-      </SwiperSlide>
+        <SwiperSlide>
+        < div className="flex flex-col items-center gap-y-8">  
+               <p className="text-xl md:text-4xl text-white font">
+                        “Easily, the best design and development studio we’ve worked with throughout the years”
+                    </p>
+                    <div className="w-2/4 border border-neutral-700 h-0"></div>
+                    <p className="text-base text-white font">
+                        Dovid Efune - Founder & Chairman
+                    </p>
+                    <img src="../images/sunlogo.svg" alt="" className="" />
+                    </div>  
+        </SwiperSlide>
+        <SwiperSlide>
+        < div className="flex flex-col items-center gap-y-8">  
+               <p className="text-xl md:text-4xl text-white">
+                        “Easily, the best design and development studio we’ve worked with throughout the years”
+                    </p>
+                    <div className="w-2/4 border border-neutral-700 h-0"></div>
+                    <p className="text-base text-white">
+                        Dovid Efune - Founder & Chairman
+                    </p>
+                    <img src="../images/sunlogo.svg" alt="" className="" />
+                    </div>  
+        </SwiperSlide>
+        <SwiperSlide>
+            
+        < div className="flex flex-col items-center gap-y-8">  
+               <p className="text-xl md:text-4xl text-white">
+                        “Easily, the best design and development studio we’ve worked with throughout the years”
+                    </p>
+                    <div className="w-2/4 border border-neutral-700 h-0"></div>
+                    <p className="text-base text-white">
+                        Dovid Efune - Founder & Chairman
+                    </p>
+                    <img src="../images/sunlogo.svg" alt="" className="" />
+                    </div>  
+        </SwiperSlide>
+        <SwiperSlide>
+            
+            < div className="flex flex-col items-center gap-y-8">  
+                   <p className="text-xl md:text-4xl text-white">
+                            “Easily, the best design and development studio we’ve worked with throughout the years”
+                        </p>
+                        <div className="w-2/4 border border-neutral-700 h-0"></div>
+                        <p className="text-base text-white">
+                            Dovid Efune - Founder & Chairman
+                        </p>
+                        <img src="../images/sunlogo.svg" alt="" className="" />
+                        </div>  
+            </SwiperSlide>
+            <SwiperSlide>
+            
+            < div className="flex flex-col items-center gap-y-8">  
+                   <p className="text-xl md:text-4xl text-white">
+                            “Easily, the best design and development studio we’ve worked with throughout the years”
+                        </p>
+                        <div className="w-2/4 border border-neutral-700 h-0"></div>
+                        <p className="text-base text-white">
+                            Dovid Efune - Founder & Chairman
+                        </p>
+                        <img src="../images/sunlogo.svg" alt="" className="" />
+                        </div>  
+            </SwiperSlide>
       </Swiper>
-</div>
-</div>
-  )
+    </>
+  );
 }
-
-export default Swipeer

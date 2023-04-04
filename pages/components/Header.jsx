@@ -6,10 +6,10 @@ import Swipeer from "./swiper";
 
 const Header = (props) => {
   return (
-    <div>
+    <div className="px-4 md:px-24">
       <div className="w-100 flex flex-col justify-center items-center mt-56 text-center">
-          <span className="text-3xl font-thin text-white mb-6 uppercase">{props.title}</span>
-          <span className="text-white text-4xl uppercase  md:text-5xl font-bold ">
+          <span className="text-3xl font-thin text-neutral-400 mb-8 uppercase Antonio">{props.title}</span>
+          <span className="text-white text-3xl ms:text-4xl uppercase  md:text-5xl font-bold Antonio">
           {props.subTitle}
         </span>
         <Swipeer/>
