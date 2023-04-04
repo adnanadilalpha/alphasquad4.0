@@ -1,12 +1,7 @@
 
 
 
-.feature {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
 
         
 #curve-image1 {
@@ -59,10 +54,7 @@
   .wrap-anima {
     display: flex;
     flex-direction: column;
-    gap: 96px;
     align-items: center;
-    margin-top: 128px;
-  
   }
   
   .animate-chart {
@@ -223,4 +215,34 @@ top: 2293px;
 border: 1px solid #3F3F46;
 transform: rotate(180deg);
 margin-top: 130px;
+}
+
+
+@media  screen and (max-width: 744px) {
+  .wrap-anima {
+    gap: 36px;
+  }
+ 
+  .text-1 {
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .text-3 {
+    text-align: center;
+    font-size: 20px;
+  }
+
+ .animate-chart svg {
+   width: 200px;
+  }
+
+
+  #curve-image-small {
+    width: 100px;
+  }
+
+  #curve-image-small1 {
+    width: 100px;
+  }
 }

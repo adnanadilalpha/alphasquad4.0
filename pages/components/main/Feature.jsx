@@ -5,7 +5,7 @@ import AnimateSmall from './SmallAnimate'
 const Feature = () => {
 
   return (
-    <div className='feature'>
+    <div className='flex flex-col justify-center items-center gap-y-10 sm:gap-y-24 my-32'>
   <Animate title={"micomanagment"}/>
   <Animate title={"Boring meetings"}/>
   <AnimateSmall title={"Stress"} id={"curve-image-small"} idd={"curve-image-small1"}/>
