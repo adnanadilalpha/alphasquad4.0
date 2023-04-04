@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Clients from './components/main/Clients'
 import Feature from './components/main/Feature'
 import local from 'next/font/local'
+import Footer from './components/Footer'
 
 const Basement = local ({src: '../public/fonts/BasementGrotesque.otf'})
 
@@ -22,6 +23,10 @@ export default function Home() {
  <Clients />
  <Feature />
 </main>
+
+<footer>
+  <Footer />
+</footer>
     </>
   )
 }
