@@ -1,0 +1,226 @@
+
+
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+        
+#curve-image1 {
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+    z-index: 99;
+    transition: opacity 0.8s ease-in-out;
+  }
+
+  #curve-image11 {
+    position: absolute;
+    top: 0px;
+    z-index: 99;
+    transition: opacity 0.8s ease-in-out;
+  }
+  
+  
+  
+  
+  .animate-chart:hover .text-1 {
+    color: #52525B;
+  }
+  
+  
+  #curve-image-small {
+    position: absolute;
+    top: 5px;
+    width: 333px;
+    opacity: 0;
+    z-index: 99;
+    transition: opacity 0.8s ease-in-out;
+  }
+
+  #curve-image-small1 {
+    position: absolute;
+    top: 5px;
+    width: 333px;
+    opacity: 1;
+    z-index: 99;
+    transition: opacity 0.8s ease-in-out;
+  }
+
+  
+.svg-wrap {
+    display: flex;
+    justify-content: center;
+}
+  
+  .wrap-anima {
+    display: flex;
+    flex-direction: column;
+    gap: 96px;
+    align-items: center;
+    margin-top: 128px;
+  
+  }
+  
+  .animate-chart {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+  }
+  
+  .text-1 {
+    font-family: 'Basement Grotesque';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 135%;
+    /* identical to box height, or 81px */
+    
+    letter-spacing: 0.01em;
+    
+    /* Zinc 200 */
+    
+    color: #E4E4E7;
+    z-index: -1;
+  }
+  
+  .text-3 {
+    text-align: center;
+    position: relative;
+    font-family: 'Basement Grotesque';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 135%;
+    /* identical to box height, or 81px */
+    
+    letter-spacing: 0.01em;
+    
+    /* Zinc 200 */
+    
+    color: #E4E4E7;
+    z-index: -1;
+  }
+  
+  
+  
+  .animate-chart:hover .text-3 {
+
+    font-size: 64px;
+    color: #52525B;
+  }
+  
+  
+  .mico {
+    stroke-dasharray: 900;
+    stroke-dashoffset: 900;
+    animation: draw 0.8s ease forwards;
+  }
+  
+  @keyframes draw {
+    from {
+      stroke-dashoffset: 900;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  .boring {
+    stroke-dasharray: 900;
+    stroke-dashoffset: 900;
+    animation: draw 0.8s ease forwards;
+  }
+  
+  @keyframes draw {
+    from {
+      stroke-dashoffset: 900;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  .stress {
+    stroke-dasharray: 900;
+    stroke-dashoffset: 900;
+    animation: draw 0.8s ease forwards;
+  }
+  
+  @keyframes draw {
+    from {
+      stroke-dashoffset: 900;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  
+  .shitty {
+    stroke-dasharray: 900;
+    stroke-dashoffset: 900;
+    animation: draw 0.8s ease forwards;
+  }
+  
+  @keyframes draw {
+    from {
+      stroke-dashoffset: 900;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  
+  .hand {
+    stroke-dasharray: 900;
+    stroke-dashoffset: 900;
+    animation: draw 0.8s ease forwards;
+  }
+  
+  @keyframes draw {
+    from {
+      stroke-dashoffset: 900;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  
+  .smoke {
+    stroke-dasharray: 900;
+    stroke-dashoffset: 900;
+    animation: draw 0.8s ease forwards;
+  }
+  
+  @keyframes draw {
+    from {
+      stroke-dashoffset: 900;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  
+
+  .line-divide {
+    width: 100%;
+height: 0px;
+left: 1920px;
+top: 2293px;
+
+/* Zinc 700 */
+
+border: 1px solid #3F3F46;
+transform: rotate(180deg);
+margin-top: 130px;
+}
