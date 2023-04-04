@@ -1,4 +1,3 @@
-import Carousal from "./carousal";
 import React from 'react'
 import Swipeer from "./swiper";
 
@@ -13,7 +12,6 @@ const Header = (props) => {
           {props.subTitle}
         </span>
         <Swipeer/>
-        {/* <Carousal /> */}
       </div>
     </div>
   )
