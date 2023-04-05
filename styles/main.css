@@ -220,8 +220,8 @@ margin-top: 130px;
   color: black;
   margin-left: 20px;
   margin-right: 20px;
-  -webkit-animation: flash 1.5s ease-in-out infinite;
-  animation: flash 1.5s ease-in-out infinite;
+  -webkit-animation: flash 0.8s ease-in-out infinite;
+  animation: flash 0.8s ease-in-out infinite;
 }
 
 @-webkit-keyframes flash {
@@ -1321,6 +1321,51 @@ display: none;
         .wrap-box {
           flex-direction: column;
         }
+
+
+        
+    .num, .num1, .num2, .num3 {
+      font-size: 20px;
+      height: auto;
+    }
+
+    .num {
+      margin-top: 24px;
+    }
+
+    .num1 {
+      display: flex;
+      justify-content: center;
+      margin: 24px 0 0 0;
+    }
+
+
+    .num, .num2 {
+      margin-left: 16px;
+    }
+
+    .sub-title, .sub-title11, .sub-title2, .sub-title3 {
+      font-size: 14px;
+    }
+
+    .sub-title11 {
+      margin: 0 20px 0 0;
+    }
+
+    .sub-title, .sub-title2 {
+      margin-left: 16px;
+    }
+
+
+    .numb {
+      font-size: 24px;
+    }
+
+    .people {
+      font-size: 18px;
+      text-align: center;
+      margin: 0;
+    }
 }
 
 

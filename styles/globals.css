@@ -27,3 +27,31 @@ border: 1px solid #52525B;
 
 }
 
+
+
+
+/* custom scroll bar */
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px rgb(248, 248, 248); 
+    border-radius: 5px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(150, 144, 144); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #bbb3b3; 
+  }
+  

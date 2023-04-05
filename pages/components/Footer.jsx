@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-<div className="flex flex-col justify-between md:flex  2xl:flex  xl:flex-row mb-9 mx-6 2xl:mx-20 font ">
+<div className="flex flex-col justify-between md:flex  2xl:flex  xl:flex-row 2xl:mt-24 mb-9 mx-6 2xl:mx-20 font ">
         <div className="mb-8 flex flex-col items-center md:items-start">
         <span className="text-base sm:text-2xl text-neutral-400">
             FIND US
