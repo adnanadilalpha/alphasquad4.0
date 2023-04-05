@@ -519,7 +519,7 @@ margin-top: 130px;
   position: relative;
   width: 480px;
   height: 312px;
-  left: 12px;
+  left: 212px;
   top: -105px;
   background: url(../gif/focus.webp);
   opacity: 1;
@@ -568,7 +568,7 @@ margin-top: 130px;
   position: relative;
   width: 480px;
   height: 270px;
-  left: 933px;
+  left: 1023px;
   top: -565px;
   background: url(../gif/result.webp);
   opacity: 1;
@@ -629,7 +629,7 @@ color: #F4F4F5;
 
 @media screen and (max-width: 1546px) {
   .wrap-text-anima {
-
+    height: 230px;
     font-size: 48px;
     line-height: 140%;
     }
@@ -719,6 +719,7 @@ display: none;
 @media  screen and (max-width: 744px) {
 
   .wrap-text-anima {
+    height: 90px;
     font-size: 16px;
     line-height: 140%;
     }
