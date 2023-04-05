@@ -57,7 +57,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    max-width: 100%;
     height: 80px;
   }
   
@@ -213,7 +213,534 @@ margin-top: 130px;
 }
 
 
+
+/* Team styles */
+.result {
+  -webkit-text-stroke: 1px #FFFFFF;
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+  -webkit-animation: flash 1.5s ease-in-out infinite;
+  animation: flash 1.5s ease-in-out infinite;
+}
+
+@-webkit-keyframes flash {
+  0%, 80%, 100% {
+    color: black;
+    -webkit-text-fill-color: black;
+  }
+  20%, 60% {
+    color: white;
+    -webkit-text-fill-color: white;
+  }
+  40% {
+    color: black;
+    -webkit-text-fill-color: black;
+  }
+}
+
+@keyframes flash {
+  0%, 80%, 100% {
+    color: black;
+    -webkit-text-fill-color: black;
+  }
+  20%, 60% {
+    color: white;
+    -webkit-text-fill-color: white;
+  }
+  40% {
+    color: black;
+    -webkit-text-fill-color: black;
+  }
+}
+
+.result.flash-twice {
+  -webkit-animation: flash-twice 2s ease-in-out 1 forwards;
+  animation: flash-twice 2s ease-in-out 1 forwards;
+}
+
+@-webkit-keyframes flash-twice {
+  0%, 100% {
+    color: black;
+    -webkit-text-fill-color: black;
+  }
+  10%, 90% {
+    color: white;
+    -webkit-text-fill-color: white;
+  }
+  20%, 80% {
+    color: black;
+    -webkit-text-fill-color: black;
+  }
+}
+
+@keyframes flash-twice {
+  0%, 100% {
+    color: black;
+    -webkit-text-fill-color: black;
+  }
+  10%, 90% {
+    color: white;
+    -webkit-text-fill-color: white;
+  }
+  20%, 80% {
+    color: black;
+    -webkit-text-fill-color: black;
+  }
+}
+
+@-webkit-keyframes pause {
+  0%, 100% {
+    color: black;
+    -webkit-text-fill-color: black;
+  }
+}
+
+@keyframes pause {
+  0%, 100% {
+    color: black;
+    -webkit-text-fill-color: black;
+  }
+}
+
+.result.pause {
+  -webkit-animation: pause 2s ease-in-out 1 forwards;
+  animation: pause 2s ease-in-out 1 forwards;
+}
+
+.result:hover {
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+  color: #FFFFFF !important;
+  -webkit-text-fill-color: #FFFFFF !important;
+}
+
+
+
+
+.team {
+  -webkit-text-stroke: 1px #FFFFFF;
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+  -webkit-animation: flash 1s ease-in-out infinite;
+  animation: flash 1s ease-in-out infinite;
+}
+
+@-webkit-keyframes flash {
+  0%, 80%, 100% {
+    color: black;
+    -webkit-text-fill-color: black;
+  }
+  20%, 60% {
+    color: white;
+    -webkit-text-fill-color: white;
+  }
+  40% {
+    color: black;
+    -webkit-text-fill-color: black;
+  }
+}
+
+@keyframes flash {
+  0%, 80%, 100% {
+    color: black;
+    -webkit-text-fill-color: black;
+  }
+  20%, 60% {
+    color: white;
+    -webkit-text-fill-color: white;
+  }
+  40% {
+    color: black;
+    -webkit-text-fill-color: black;
+  }
+}
+
+.team.flash-twice {
+  -webkit-animation: flash-twice 1s ease-in-out 1 forwards;
+  animation: flash-twice 1s ease-in-out 1 forwards;
+}
+
+@-webkit-keyframes flash-twice {
+  0%, 100% {
+    color: black;
+    -webkit-text-fill-color: black;
+  }
+  10%, 90% {
+    color: white;
+    -webkit-text-fill-color: white;
+  }
+  20%, 80% {
+    color: black;
+    -webkit-text-fill-color: black;
+  }
+}
+
+@keyframes flash-twice {
+  0%, 100% {
+    color: black;
+    -webkit-text-fill-color: black;
+  }
+  10%, 90% {
+    color: white;
+    -webkit-text-fill-color: white;
+  }
+  20%, 80% {
+    color: black;
+    -webkit-text-fill-color: black;
+  }
+}
+
+@-webkit-keyframes pause {
+  0%, 100% {
+    color: black;
+    -webkit-text-fill-color: black;
+  }
+}
+
+@keyframes pause {
+  0%, 100% {
+    color: black;
+    -webkit-text-fill-color: black;
+  }
+}
+
+.team.pause {
+  -webkit-animation: pause 2s ease-in-out 1 forwards;
+  animation: pause 2s ease-in-out 1 forwards;
+}
+
+.team:hover {
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+  color: #FFFFFF !important;
+  -webkit-text-fill-color: #FFFFFF !important;
+}
+
+
+
+.focus {
+  -webkit-text-stroke: 1px #FFFFFF;
+  color: black;
+  margin-right: 20px;
+  -webkit-animation: flash 4s ease-in-out infinite;
+  animation: flash 4s ease-in-out infinite;
+}
+
+@-webkit-keyframes flash {
+  0%, 80%, 100% {
+    color: black;
+    -webkit-text-fill-color: black;
+  }
+  20%, 60% {
+    color: white;
+    -webkit-text-fill-color: white;
+  }
+  40% {
+    color: black;
+    -webkit-text-fill-color: black;
+  }
+}
+
+@keyframes flash {
+  0%, 80%, 100% {
+    color: black;
+    -webkit-text-fill-color: black;
+  }
+  20%, 60% {
+    color: white;
+    -webkit-text-fill-color: white;
+  }
+  40% {
+    color: black;
+    -webkit-text-fill-color: black;
+  }
+}
+
+.focus.flash-twice {
+  -webkit-animation: flash-twice 4s ease-in-out 1 forwards;
+  animation: flash-twice 4s ease-in-out 1 forwards;
+}
+
+@-webkit-keyframes flash-twice {
+  0%, 100% {
+    color: black;
+    -webkit-text-fill-color: black;
+  }
+  10%, 90% {
+    color: white;
+    -webkit-text-fill-color: white;
+  }
+  20%, 80% {
+    color: black;
+    -webkit-text-fill-color: black;
+  }
+}
+
+@keyframes flash-twice {
+  0%, 100% {
+    color: black;
+    -webkit-text-fill-color: black;
+  }
+  10%, 90% {
+    color: white;
+    -webkit-text-fill-color: white;
+  }
+  20%, 80% {
+    color: black;
+    -webkit-text-fill-color: black;
+  }
+}
+
+
+.focus:hover {
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+  color: #FFFFFF !important;
+  -webkit-text-fill-color: #FFFFFF !important;
+}
+
+
+
+
+.gif-1 {
+  position: relative;
+  width: 480px;
+  height: 312px;
+  left: 50px;
+  top: -127px;
+  background: url(../gif/focus.webp);
+  opacity: 0;
+  border-radius: 10px;
+}
+
+.gif-focus {
+  position: relative;
+  width: 480px;
+  height: 312px;
+  left: 12px;
+  top: -105px;
+  background: url(../gif/focus.webp);
+  opacity: 1;
+  border-radius: 10px;
+}
+
+
+.gif-2 {
+  position: relative;
+  width: 480px;
+  height: 240px;
+  left: 425px;
+  top: -525px;
+  
+  background: url(../gif/team.webp);
+  opacity: 0;
+  border-radius: 10px;
+}
+
+
+.gif-team {
+  position: relative;
+  width: 480px;
+  height: 240px;
+  left: 425px;
+  top: -525px;
+  
+  background: url(../gif/team.webp);
+  opacity: 1;
+  border-radius: 10px;
+}
+
+.gif-3 {
+  position: relative;
+  width: 480px;
+  height: 270px;
+  left: 933px;
+  top: -565px;
+  background: url(../gif/result.webp);
+  opacity: 0;
+  border-radius: 10px;
+}
+
+
+.gif-result {
+  position: relative;
+  width: 480px;
+  height: 270px;
+  left: 933px;
+  top: -565px;
+  background: url(../gif/result.webp);
+  opacity: 1;
+  border-radius: 10px;
+}
+
+
+
+.focus:hover {
+  cursor: pointer;
+}
+
+.team:hover {
+  cursor: pointer;
+}
+
+.result:hover {
+  cursor: pointer;
+}
+
+
+.wrap-text-anima {
+max-width: 1536px;
+max-height: 581px;
+font-family: 'Basement Grotesque';
+font-style: normal;
+font-weight: 800;
+font-size: 72px;
+line-height: 140%;
+text-align: center;
+text-transform: uppercase;
+color: #F4F4F5;
+}
+
+.para-1 {
+margin: 0px auto 96px auto;
+font-family: 'Archivo';
+font-style: italic;
+font-weight: 300;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #F4F4F5;
+}
+
+
+
+/* overview css style */
+
+.para-1 {
+margin: 0px auto 96px auto;
+font-family: 'Archivo';
+font-style: italic;
+font-weight: 300;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #F4F4F5;
+}
+
+
+
+
+ 
+
+
+
+@media screen and (max-width: 1546px) {
+  .wrap-text-anima {
+
+    font-size: 48px;
+    line-height: 140%;
+    }
+
+
+    .gif-1 {
+      left: 190px;
+      top: -76px;
+    }
+
+    .gif-focus {
+      left: 190px;
+      top: -76px;
+    }
+
+    .gif-3 {
+      left: 804PX;
+    }
+
+    .gif-result {
+      left: 804PX;
+    }
+}
+
+
+
+@media screen and (max-width: 1260px) {
+  .wrap-text-anima {
+    font-size: 32px;
+    line-height: 140%;
+    }
+
+
+    .gif-1 {
+display: none;
+    }
+
+    .gif-focus {
+      display: none;
+    }
+
+    .gif-3 {
+      display: none;
+    }
+
+    .gif-result {
+      display: none;
+    }
+
+    .gif-2 {
+      display: none;
+          }
+      
+          .gif-team {
+            display: none;
+          }
+
+    .wrap-anima {
+      gap: 60px;
+    }
+   
+    .text-1 {
+      text-align: center;
+      font-size: 32px;
+    }
+    
+    .text-3 {
+      text-align: center;
+      font-size: 32px;
+    }
+  
+   .animate-chart svg {
+     width: 200px;
+    }
+  
+  
+    #curve-image-small {
+      width: 100px;
+    }
+  
+    #curve-image-small1 {
+      width: 100px;
+    }
+}
+
+
 @media  screen and (max-width: 744px) {
+
+  .wrap-text-anima {
+    font-size: 16px;
+    line-height: 140%;
+    }
+
+
   .wrap-anima {
     gap: 32px;
   }
@@ -240,6 +767,31 @@ margin-top: 130px;
   #curve-image-small1 {
     width: 100px;
   }
+
+
+  .gif-1 {
+    display: none;
+        }
+    
+        .gif-focus {
+          display: none;
+        }
+
+        .gif-2 {
+          display: none;
+              }
+          
+              .gif-team {
+                display: none;
+              }
+    
+        .gif-3 {
+          display: none;
+        }
+    
+        .gif-result {
+          display: none;
+        }
 }
 
 
