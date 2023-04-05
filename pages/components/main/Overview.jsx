@@ -75,7 +75,7 @@ function Cutton() {
 
 
     <div className="wrap-box-2">
-        <div className="box-five">
+        <div className="box-five box">
             <dl className="direction-aware-hover">
                 <dt className="direction-aware-hover__left"></dt>
                 <dt className="direction-aware-hover__right"></dt>
@@ -99,7 +99,7 @@ function Cutton() {
             </p>
 </div>
         </div>
-        <div className="box-six">
+        <div className="box-six box">
             <dl className="direction-aware-hover">
                 <dt className="direction-aware-hover__left"></dt>
                 <dt className="direction-aware-hover__right"></dt>
@@ -124,7 +124,7 @@ function Cutton() {
     </div>
     </div>
 
-        <div className="box-seven">
+        <div className="box-seven box">
             <dl className="direction-aware-hover">
                 <dt className="direction-aware-hover__left"></dt>
                 <dt className="direction-aware-hover__right"></dt>
@@ -148,7 +148,7 @@ function Cutton() {
             </p>
         </div>
         </div>
-        <div className="box-eight">
+        <div className="box-eight box">
             <dl className="direction-aware-hover">
                 <dt className="direction-aware-hover__left"></dt>
                 <dt className="direction-aware-hover__right"></dt>
