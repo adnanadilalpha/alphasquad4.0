@@ -6,6 +6,7 @@ import Feature from './components/main/Feature'
 import local from 'next/font/local'
 import Footer from './components/Footer'
 import Team from './components/main/Team'
+import Overview from './components/main/Overview'
 
 const Basement = local ({src: '../public/fonts/BasementGrotesque.otf'})
 
@@ -24,6 +25,7 @@ export default function Home() {
  <Clients />
  <Feature />
  <Team name1="Team" name2="focuses" name3="results"/>
+ <Overview />
 </main>
 
 <footer>
