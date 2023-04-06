@@ -7,7 +7,7 @@ const Footer = () => {
         <span className="text-base sm:text-2xl text-neutral-400">
             FIND US
         </span>
-       <ul className=" flex items-center gap-x-4 text-white text-sm sm:text-lg font font-light">
+       <ul className=" flex items-center gap-x-2 text-white text-sm sm:text-lg font font-light">
 <a href='https://dribbble.com/alphasquadstudio' target="_blank"><li className="dribb ">DRIBBBLE</li></a>
         <li className="dot">
             <img src="../images/dot.svg" alt="" />
