@@ -9,7 +9,7 @@ const Navbar = (props) => {
   };
 
   return (
-    <nav className="flex justify-between items-center text-sm font-normal uppercase text-white py-4 px-6 md:px-10 lg:px-16 font">
+    <nav className="flex justify-between items-center text-sm font-normal uppercase text-white pt-14 px-6 md:px-10 lg:px-16 font">
       <div className="flex items-center">
       <div className="light-wrap">
       <div className={props.name}></div>
@@ -20,22 +20,22 @@ const Navbar = (props) => {
       </div>
       <div className="hidden md:block item">
         <ul className="flex">
-          <li className="ml-6">
+          <li className="ml-6 hover:text-zinc-400">
             <Link href="/alphaway">
              The Alpha way
             </Link>
           </li>
-          <li className="ml-6">
+          <li className="ml-6 hover:text-zinc-400">
             <Link href="/people">
              The people
             </Link>
           </li>
-          <li className="ml-6">
+          <li className="ml-6 hover:text-zinc-400">
             <Link href="/dope">
              Dope Stuff
             </Link>
           </li>
-          <li className="ml-6">
+          <li className="ml-6 hover:text-zinc-400">
             <Link href="/book">
              Book a consultation
             </Link>
@@ -85,7 +85,7 @@ const Navbar = (props) => {
                    <img src="../Assets/arrow.svg" alt="" />
                    </div>
                    <div className='flex justify-center items-center'>
-                   <div className='border-b border-gray-400 w-11/12'></div>
+                   <div className='border-b border-zinc-400 w-11/12'></div>
                    </div>
                 </Link>
               </li>
@@ -96,7 +96,7 @@ const Navbar = (props) => {
                    <img src="../Assets/arrow.svg" alt="" />
                    </div>
                    <div className='flex justify-center items-center'>
-                   <div className='border-b border-gray-400 w-11/12'></div>
+                   <div className='border-b border-zinc-400 w-11/12'></div>
                    </div>
                 </Link>
               </li>
@@ -107,7 +107,7 @@ const Navbar = (props) => {
                    <img src="../Assets/arrow.svg" alt="" />
                    </div>
                    <div className='flex justify-center items-center'>
-                   <div className='border-b border-gray-400 w-11/12'></div>
+                   <div className='border-b border-zinc-400 w-11/12'></div>
                    </div>
               </li>
               </Link>
