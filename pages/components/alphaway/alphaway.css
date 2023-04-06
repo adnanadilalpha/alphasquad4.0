@@ -13,6 +13,7 @@
 }
 
 
+
 .line {
 width: 541px;
 height: 0px;
@@ -117,4 +118,33 @@ font-family: 'Basement Grotesque';
     text-transform: uppercase;
     color: #FFFFFF;
     z-index: -99;
+}
+
+
+@media screen and (max-width: 1440px) {
+    .font-size {
+        font-size: 48px;
+    }
+
+    .animated-alpha:hover {
+        background-color: #FFFFFF;
+    }
+
+
+    .logoname {
+        font-size: 96px;
+    }
+}
+
+
+@media screen and (max-width: 1260px) {
+    .font-size {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 744px) {
+    .font-size {
+        font-size: 20px;
+    }
 }
