@@ -2,6 +2,7 @@
     background: url(./Assets/circlebg.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .margin-title {
@@ -126,10 +127,6 @@ font-family: 'Basement Grotesque';
         font-size: 48px;
     }
 
-    .animated-alpha:hover {
-        background-color: #FFFFFF;
-    }
-
 
     .logoname {
         font-size: 96px;
@@ -141,10 +138,16 @@ font-family: 'Basement Grotesque';
     .font-size {
         font-size: 30px;
     }
+    .animated-alpha:hover {
+        background-color: #FFFFFF;
+    }
 }
 
 @media screen and (max-width: 744px) {
     .font-size {
         font-size: 20px;
+    }
+    .animated-alpha:hover {
+        background-color: #FFFFFF;
     }
 }
