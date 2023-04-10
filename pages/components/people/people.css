@@ -1,0 +1,79 @@
+.people--head {
+    background: url(./Assets/aa.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* section 1 styles */
+
+
+
+
+.point {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(Assets/points.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1239px;
+    max-height: 1401.5px;
+}
+
+
+.padding {
+    padding-left: 100px;
+    padding-right: 820px;
+}
+
+.padding--2 {
+    padding-right: 100px;
+    padding-left: 820px;
+    padding-top: 621px;
+}
+
+.padding--3 {
+    padding-right: 820px;
+    padding-left: 100px;
+    padding-top: 330px;
+}
+
+
+
+
+
+
+
+
+
+/* Section two styles */
+
+    
+    
+        .description--people {
+            font-family: 'Archivo';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 150%;
+            color: #A1A1AA;
+        }
+    
+        .social {
+            font-family: 'Archivo';
+            font-style: normal;
+            font-weight: 100;
+            font-size: 18px;
+            line-height: 100%;
+            text-transform: capitalize;
+            color: #FFFFFF;
+        }
+    
+        .img1 {
+            background: url(Assets/arsalan.png);
+            background-size: cover;
+        }
+        
+    
