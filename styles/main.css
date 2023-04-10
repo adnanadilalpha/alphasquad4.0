@@ -4,14 +4,14 @@
     top: 0px;
     opacity: 0;
     z-index: 99;
-    transition: opacity 0.8s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
   }
 
   #curve-image11 {
     position: absolute;
     top: 0px;
     z-index: 99;
-    transition: opacity 0.8s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
   }
   
   
@@ -28,7 +28,7 @@
     width: 333px;
     opacity: 0;
     z-index: 99;
-    transition: opacity 0.8s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
   }
 
   #curve-image-small1 {
@@ -37,7 +37,7 @@
     width: 333px;
     opacity: 1;
     z-index: 99;
-    transition: opacity 0.8s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
   }
 
   
@@ -107,7 +107,7 @@
   .mico {
     stroke-dasharray: 900;
     stroke-dashoffset: 900;
-    animation: draw 0.8s ease forwards;
+    animation: draw 0.5s ease forwards;
   }
   
   @keyframes draw {
@@ -122,7 +122,7 @@
   .boring {
     stroke-dasharray: 900;
     stroke-dashoffset: 900;
-    animation: draw 0.8s ease forwards;
+    animation: draw 0.5s ease forwards;
   }
   
   @keyframes draw {
@@ -137,7 +137,7 @@
   .stress {
     stroke-dasharray: 900;
     stroke-dashoffset: 900;
-    animation: draw 0.8s ease forwards;
+    animation: draw 0.5s ease forwards;
   }
   
   @keyframes draw {
@@ -153,7 +153,7 @@
   .shitty {
     stroke-dasharray: 900;
     stroke-dashoffset: 900;
-    animation: draw 0.8s ease forwards;
+    animation: draw 0.5s ease forwards;
   }
   
   @keyframes draw {
@@ -169,7 +169,7 @@
   .hand {
     stroke-dasharray: 900;
     stroke-dashoffset: 900;
-    animation: draw 0.8s ease forwards;
+    animation: draw 0.5s ease forwards;
   }
   
   @keyframes draw {
@@ -185,7 +185,7 @@
   .smoke {
     stroke-dasharray: 900;
     stroke-dashoffset: 900;
-    animation: draw 0.8s ease forwards;
+    animation: draw 0.5s ease forwards;
   }
   
   @keyframes draw {
