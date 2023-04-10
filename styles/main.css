@@ -220,8 +220,8 @@ margin-top: 130px;
   color: black;
   margin-left: 20px;
   margin-right: 20px;
-  -webkit-animation: flash 0.8s ease-in-out infinite;
-  animation: flash 0.8s ease-in-out infinite;
+  -webkit-animation: flash 3s ease-in-out infinite;
+  animation: flash 3s ease-in-out infinite;
 }
 
 @-webkit-keyframes flash {
@@ -323,8 +323,8 @@ margin-top: 130px;
   color: black;
   margin-left: 20px;
   margin-right: 20px;
-  -webkit-animation: flash 1s ease-in-out infinite;
-  animation: flash 1s ease-in-out infinite;
+  -webkit-animation: flash 2.5s ease-in-out infinite;
+  animation: flash 2.5s ease-in-out infinite;
 }
 
 @-webkit-keyframes flash {
@@ -727,7 +727,6 @@ color: #FFFFFF;
     
     
     .description {
-        height: 76px;
         margin: 24px 80px 80px 80px;
         font-family: 'Basement Grotesque';
         font-style: normal;

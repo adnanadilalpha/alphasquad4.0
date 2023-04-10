@@ -31,7 +31,7 @@ function onmove(){
 
   return (
 <>
-<div className="border w-full border-zinc-400 mb-12 sm:mb-12 xl:mb-24"></div>
+<div className="border w-full border-zinc-700 mb-12 sm:mb-12 xl:mb-24"></div>
 <div className="wrap-text-anima">
 <p className="title-main  text-center" >A no-bs 
     <span className="team" id="team" onMouseMove={onMouse} onMouseLeave={onmove}>{props.name1}</span>

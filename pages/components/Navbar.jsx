@@ -85,7 +85,7 @@ const Navbar = (props) => {
                    <img src="../Assets/arrow.svg" alt="" />
                    </div>
                    <div className='flex justify-center items-center'>
-                   <div className='border-b border-zinc-400 w-11/12'></div>
+                   <div className='border-b border-zinc-700 w-11/12'></div>
                    </div>
                 </Link>
               </li>
@@ -96,7 +96,7 @@ const Navbar = (props) => {
                    <img src="../Assets/arrow.svg" alt="" />
                    </div>
                    <div className='flex justify-center items-center'>
-                   <div className='border-b border-zinc-400 w-11/12'></div>
+                   <div className='border-b border-zinc-700 w-11/12'></div>
                    </div>
                 </Link>
               </li>
@@ -107,7 +107,7 @@ const Navbar = (props) => {
                    <img src="../Assets/arrow.svg" alt="" />
                    </div>
                    <div className='flex justify-center items-center'>
-                   <div className='border-b border-zinc-400 w-11/12'></div>
+                   <div className='border-b border-zinc-700 w-11/12'></div>
                    </div>
               </li>
               </Link>

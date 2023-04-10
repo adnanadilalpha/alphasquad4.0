@@ -12,14 +12,10 @@
 
 
 .point {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background: url(Assets/points.svg);
     background-repeat: no-repeat;
     background-position: center;
     max-width: 1239px;
-    max-height: 1401.5px;
 }
 
 
@@ -40,6 +36,19 @@
     padding-top: 330px;
 }
 
+
+@media screen and (max-width: 1260px) {
+    .padding {
+        padding-left: 24px;
+        padding-right: 820px;
+    }
+
+    .padding--2 {
+        padding-right: 24px;
+        padding-left: 820px;
+        padding-top: 340px;
+    }
+}
 
 
 
@@ -74,6 +83,7 @@
         .img1 {
             background: url(Assets/arsalan.png);
             background-size: cover;
+            background-position: center;
         }
         
     
