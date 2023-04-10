@@ -24,7 +24,7 @@ const Footer = () => {
        </ul>
         </div>
 <div className="flex flex-col md:flex md:flex-row md:justify-between gap-x-0 md:gap-x-28">
-         <div className='mb-8 text-center sm:text-left'>
+         <div className='mb-8 text-center md:text-left'>
          <p className="text-zinc-400 text-sm sm:text-2xl font font-light">
                          UP CLOSE AND PERSONAL
                      </p>
@@ -33,7 +33,7 @@ const Footer = () => {
                          </a>
          </div>
         <div className="w-auto md:w-80 text-right font">
-            <p className="text-zinc-400 text-xs sm:text-2xl font-light ">© ALPHASQUAD LLC 2022
+            <p className="text-zinc-400 text-center text-xs sm:text-2xl font-light ">© ALPHASQUAD LLC 2022
                ALL RIGHTS RESERVED</p>
         </div>
 </div>
