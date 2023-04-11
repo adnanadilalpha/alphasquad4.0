@@ -5,6 +5,10 @@
     background-position: center;
 }
 
+.layout {
+    display: none;
+}
+
 @media screen and (max-width: 1080px) {
     .img1 {
         width: 100%;
@@ -129,6 +133,16 @@
 }
 
 
+@media screen and (max-width: 640px) {
+    .img1 {
+        background: url(Assets/arslanmb.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+
 
 @media screen and (max-width: 490px) {
     .point {
@@ -191,6 +205,10 @@
             background: url(Assets/arsalan.png);
             background-size: cover;
             background-position: center;
+            background-repeat: no-repeat;
         }
+        
+        
+        
         
     
