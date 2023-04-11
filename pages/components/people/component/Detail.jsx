@@ -111,7 +111,7 @@ const SectionTwo = () => {
 
 <div className='layout'>
      <div className='flex flex-col border-b border-zinc-700 w-full'>
-              <div class="flex justify-between items-center pl-4 pr-4 sm:pl-6 sm:pr-6 py-6 gap-8 border-b-2 border-neutral-700 w-full">
+              <div class="flex justify-between items-center pl-4 pr-4 sm:pl-6 sm:pr-6 py-6 gap-8 w-full">
                <p class="text-white text-base sm:text-2xl font">
                    Arslan Khan
                </p>
@@ -119,11 +119,14 @@ const SectionTwo = () => {
                    Co-Founder | System’s Architect
                </p>
               </div>
+              <div className='flex justify-center w-full'>
+              <div className='border-b-2 border-neutral-700 w-10/12 sm:w-full'></div>
+              </div>
          <div className='flex flex-col sm:flex-row mx-4 sm:mx-6 my-6 sm:my-0'>
                  <div class="img1 h-full ">
                     <img src="Assets/arsalan.png" alt="" /> 
                  </div>
-                <div className='flex flex-col sm:pl-4'>
+                <div className='flex flex-col sm:pl-4 border-b border-zinc-700 w-full'>
                        <div class="description--people pt-12">
                        <p class="text-white mb-3 sm:mb-4 text-2xl font">
         One liner, can be anything you like
@@ -134,14 +137,14 @@ const SectionTwo = () => {
                                We believe in nurturing meaningful relationships.
                           </p>
                        </div>
-                       <div class="font font-normal text-white text-lg capitalize sm:uppercase pt-6">
+                       <div class="font font-normal text-white text-lg capitalize sm:uppercase pt-6 pb-4">
                            <p>
                                Twitter - Instagram - Dribbble - LinkedIn  
                            </p>
                        </div>
                 </div>
             </div>
-            <div class="flex justify-between items-center mb-20 pl-6 pr-6 py-8 border-b-2 border-neutral-700 w-full">
+            <div class="flex justify-between items-center mb-20 pl-4 pr-4 sm:pl-6 sm:pr-6 py-8 border-b-2 border-neutral-700 w-full">
      <p class="text-zinc-400 text-base sm:text-2xl font">
         Saad Shah
     </p>
@@ -149,7 +152,7 @@ const SectionTwo = () => {
         Co-Founder | Creative Director
     </p>
     </div>
-    <div class="flex justify-between items-center mb-20 pl-6 pr-6 py-8 border-b-2 border-neutral-700 w-full">
+    <div class="flex justify-between items-center mb-20 pl-4 pr-4 sm:pl-6 sm:pr-6 py-8 border-b-2 border-neutral-700 w-full">
      <p class="text-zinc-400 text-base sm:text-2xl font">
      Jamal Khan
     </p>
@@ -157,7 +160,7 @@ const SectionTwo = () => {
     Supreme Leader
     </p>
     </div> 
-    <div class="flex justify-between items-center mb-20 pl-6 pr-6 py-8 border-b-2 border-neutral-700 w-full">
+    <div class="flex justify-between items-center mb-20 pl-4 pr-4 sm:pl-6 sm:pr-6 py-8 border-b-2 border-neutral-700 w-full">
      <p class="text-zinc-400 text-base sm:text-2xl font">
      Abdul Basit
     </p>
@@ -165,7 +168,7 @@ const SectionTwo = () => {
     Chief Technology Officer
     </p>
     </div>
-    <div class="flex justify-between items-center mb-20 pl-6 pr-6 py-8 border-b-2 border-neutral-700 w-full">
+    <div class="flex justify-between items-center mb-20 pl-4 pr-4 sm:pl-6 sm:pr-6 py-8 border-b-2 border-neutral-700 w-full">
      <p class="text-zinc-400 text-base sm:text-2xl font">
      Rafay Syed
     </p>
@@ -173,7 +176,7 @@ const SectionTwo = () => {
     Lead - Product Design & Business
     </p>
     </div>
-    <div class="flex justify-between items-center mb-20 pl-6 pr-6 py-8 border-b-2 border-neutral-700 w-full">
+    <div class="flex justify-between items-center mb-20 pl-4 pr-4 sm:pl-6 sm:pr-6 py-8 border-b-2 border-neutral-700 w-full">
      <p class="text-zinc-400 text-base sm:text-2xl font">
      Maheen Malik
     </p>
@@ -181,7 +184,7 @@ const SectionTwo = () => {
     Lead - WordPress Development
     </p>
     </div>
-    <div class="flex justify-between items-center pl-6 pr-6 py-8 border-b-2 border-neutral-700 w-full">
+    <div class="flex justify-between items-center pl-4 pr-4 sm:pl-6 sm:pr-6 py-8 border-b-2 border-neutral-700 w-full">
      <p class="text-zinc-400 text-base sm:text-2xl font">
      Haris Hashmi
     </p>
