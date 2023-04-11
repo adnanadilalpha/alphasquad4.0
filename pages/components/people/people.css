@@ -15,25 +15,44 @@
     background: url(Assets/points.svg);
     background-repeat: no-repeat;
     background-position: center;
-    max-width: 1239px;
+    background-size: contain;
 }
 
 
 .padding {
-    padding-left: 100px;
-    padding-right: 820px;
+    padding-left: 308px;
+    padding-right: 1144px;
 }
 
 .padding--2 {
-    padding-right: 100px;
-    padding-left: 820px;
+    padding-right: 308px;
+    padding-left: 1144px;
     padding-top: 621px;
 }
 
 .padding--3 {
-    padding-right: 820px;
-    padding-left: 100px;
+    padding-right: 1144px;
+    padding-left: 308px;
     padding-top: 330px;
+}
+
+
+@media screen and (max-width: 1560px) {
+    .padding {
+        padding-left: 100px;
+        padding-right: 820px;
+    }
+
+    .padding--2 {
+        padding-right: 100px;
+        padding-left: 820px;
+        padding-top: 340px;
+    }
+
+    .padding--3 {
+        padding-left: 100px;
+        padding-right: 820px;
+    }
 }
 
 
@@ -48,7 +67,80 @@
         padding-left: 820px;
         padding-top: 340px;
     }
+
+    .padding--3 {
+        padding-left: 24px;
+        padding-right: 820px;
+    }
 }
+
+
+@media screen and (max-width: 980px) {
+    .padding {
+        padding-left: 24px;
+        padding-right: 620px;
+    }
+
+    .padding--2 {
+        padding-right: 24px;
+        padding-left: 620px;
+        padding-top: 340px;
+    }
+
+    .padding--3 {
+        padding-left: 24px;
+        padding-right: 620px;
+    }
+}
+
+
+@media screen and (max-width: 780px) {
+    .padding {
+        padding-left: 24px;
+        padding-right: 445px;
+    }
+
+    .padding--2 {
+        padding-right: 24px;
+        padding-left: 445px;
+        padding-top: 207px;
+    }
+
+    .padding--3 {
+        padding-left: 24px;
+        padding-top: 207px;
+        padding-right: 445px;
+    }
+}
+
+
+
+@media screen and (max-width: 490px) {
+    .point {
+        background: url(Assets/pointmb.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+
+    .padding {
+        padding-left: 16px;
+        padding-right: 109px;
+    }
+
+    .padding--2 {
+        padding-right: 16px;
+        padding-left: 109px;
+        padding-top: 164px;
+    }
+
+    .padding--3 {
+        padding-left: 16px;
+        padding-top: 164px;
+        padding-right: 109px;
+    }
+}
+
 
 
 
