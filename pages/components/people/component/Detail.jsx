@@ -20,7 +20,7 @@ const SectionTwo = () => {
     </p>
    </div>
    <div class="flex justify-between items-center pl-20 pr-12 py-8 gap-8 border-b-2 border-neutral-700 w-full">
-    <p class="text-white text-2xl font w-full">
+    <p class="text-zinc-400 text-2xl font w-full">
         Saad Shah
     </p>
     <p class="text-2xl font text-left w-full">
@@ -31,7 +31,7 @@ const SectionTwo = () => {
     </p>
    </div>
    <div class="flex justify-between items-center pl-20 pr-12 py-8  gap-8 border-b-2 border-neutral-700 w-full">
-    <p class="text-white text-2xl font w-full">
+    <p class="text-zinc-400 text-2xl font w-full">
         Jamal Khan
     </p>
     <p class="text-2xl font text-left w-full">
@@ -42,7 +42,7 @@ const SectionTwo = () => {
     </p>
    </div>
    <div class="flex justify-between items-center pl-20 pr-12 py-8 gap-8 border-b-2 border-neutral-700 w-full">
-    <p class="text-white text-2xl font w-full">
+    <p class="text-zinc-400 text-2xl font w-full">
         Abdul Basit
     </p>
     <p class="text-2xl font text-left w-full">
@@ -53,7 +53,7 @@ const SectionTwo = () => {
     </p>
 </div>
    <div class="flex justify-between items-center pl-20 pr-12 py-8 gap-8 border-b-2 border-neutral-700 w-full">
-    <p class="text-white text-2xl font w-full">
+    <p class="text-zinc-400 text-2xl font w-full">
         Rafay Syed
     </p>
     <p class="text-2xl font text-left w-full">
@@ -64,7 +64,7 @@ const SectionTwo = () => {
     </p>
 </div>
    <div class="flex justify-between items-center pl-20 pr-12 py-8 gap-8 border-b-2 border-neutral-700 w-full">
-    <p class="text-white text-2xl font w-1/2">
+    <p class="text-zinc-400 text-2xl font w-1/2">
         Maheen Malik
     </p>
     <p class="text-2xl font text-left w-1/2">
@@ -75,7 +75,7 @@ const SectionTwo = () => {
     </p>
 </div>
    <div class="flex justify-between items-center mb-20 pl-20 pr-12 py-8 gap-8 border-b-2 border-neutral-700 w-full">
-    <p class="text-white text-2xl font w-1/2">
+    <p class="text-zinc-400 text-2xl font w-1/2">
         Haris Hashmi
     </p>
     <p class="text-2xl font text-left w-1/2">
