@@ -2,7 +2,7 @@ import React from 'react'
 
 const Flex = () => {
   return (
-<div className="main">
+<div className="main overflow-hidden">
     <div className="flex-wrap-dope">
                <div className="flex-item1">
                </div>
@@ -26,11 +26,11 @@ const Flex = () => {
               </div>
         </div>
         <div className="header">
-              <p className="headline--dope">
+              <p className="headline--dope text-lg sm:text-xl text-center font-medium uppercase">
               Dope stuff
               </p>
             <div>
-               <p className="text-white text-5xl uppercase font-bold">
+               <p className="Basement text-white text-xl xl:text-5xl text-center uppercase font-bold mt-7 mb-14">
                great stuff - for great people
                </p>
             </div>
