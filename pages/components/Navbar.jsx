@@ -9,7 +9,7 @@ const Navbar = (props) => {
   };
 
   return (
-    <nav className="flex justify-between items-center text-sm font-normal uppercase text-white pt-14 px-6 md:px-10 lg:px-16 font">
+    <nav className="flex justify-between items-center text-sm font-normal uppercase text-white pt-10 sm:pt-14 px-6 md:px-10 lg:px-16 font">
       <div className="flex items-center">
       <div className="light-wrap">
       <div className={props.name}></div>
