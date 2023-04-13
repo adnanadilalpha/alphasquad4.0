@@ -1,45 +1,16 @@
-.contianer {
-    width: 100%;
-    height: 980px;
-    display: flex;
-}
 
-
-.section1--book {
-    position: relative;
-    padding: 56px;
-    width: 346px;
-    /* height: 303px; */
-    margin-top: 0;
-    border-right: 1px solid #3F3F46;
-    border-bottom: 1px solid #3F3F46;
-    background: #000000;
-}
 
 
 .logo {
     width: 41px;
-    margin-top: 57px;
 }
 
-.title {
-    width: 218px;
-    margin-top: 40px;
-    font-family: 'Basement Grotesque';
-    text-align: left;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 16px;
-    line-height: 140%;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
+
 
 .title1--touch {
     width: 100%;
     text-align: center;
-    margin-top: 540px;
+    margin-top: 600px;
     font-family: 'Archivo';
     font-style: normal;
     font-weight: 800;
@@ -58,6 +29,7 @@
     width: 100%;
     text-align: center;
     margin-top: 909px;
+    margin-bottom: 64px;
     font-family: 'Archivo';
     font-style: normal;
     font-weight: 800;
@@ -76,6 +48,7 @@
     width: 100%;
     text-align: center;
     margin-top: 909px;
+    margin-bottom: 64px;
     font-family: 'Archivo';
     font-style: normal;
     font-weight: 800;
@@ -91,27 +64,9 @@
 }
 
 
-.para {
-width: 248px;
-font-family: 'Archivo', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 140%;
-letter-spacing: -0.03em;
-color: #A1A1AA;
-
-}
 
 
 
-.section2 {
-    width: 50%;
-    border-right: 1px solid #3F3F46;
-    background: #000000;
-    position: relative;
-    overflow: hidden;
-}
 
 
 
@@ -133,49 +88,14 @@ color: #A1A1AA;
 }
 
 
-.title2--book {
-    margin-top: 120px;
-    width: 100%;
-    position: absolute;
-    font-family: 'Basement Grotesque';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 48px;
-    line-height: 130%;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
 
-.title3 {
+.title--3 {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 480px;
-    position: absolute;
-    font-family: 'Basement Grotesque';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 48px;
-    line-height: 100%;
-    text-transform: uppercase;
-    color: #FFFFFF;
+    margin-top: 430px;
 }
 
-.title4 {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 480px;
-    position: absolute;
-    font-family: 'Basement Grotesque';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 48px;
-    line-height: 100%;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
 
 
 .light1 {
@@ -236,4 +156,60 @@ color: #A1A1AA;
 
  .opacity3 {
     opacity: 1;
+ }
+
+
+ @media screen and (max-width: 1080px) {
+    .title11, .title12 {
+           margin-top: 440px;
+           margin-bottom: 24px;
+           font-size: 16px;
+       }
+   
+       .title1--touch {
+           margin-top: 360px;
+           margin-bottom: 24px;
+           font-size: 16px;
+       }
+   
+       .title--3 {
+           margin-top: 163px;
+           font-size: 20px;
+       }
+   
+       .light2 {
+           top: 360px;
+       }
+   
+       .light3 {
+           top: 360px;
+       }
+    }
+
+
+ @media screen and (max-width: 744px) {
+ .title11, .title12 {
+        margin-top: 316px;
+        margin-bottom: 24px;
+        font-size: 16px;
+    }
+
+    .title1--touch {
+        margin-top: 98px;
+        margin-bottom: 24px;
+        font-size: 16px;
+    }
+
+    .title--3 {
+        margin-top: 163px;
+        font-size: 20px;
+    }
+
+    .light2 {
+        top: 360px;
+    }
+
+    .light3 {
+        top: 360px;
+    }
  }
