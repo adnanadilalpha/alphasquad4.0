@@ -27,7 +27,7 @@ const CaseView = () => {
         </p>
  </div>
  </Link>
- <Link href="/CasePages/Toyota">
+ <Link href="/CasePages/Ncr">
      <div className="box-5">
      <p className="tagline--dope">
      NCR
@@ -37,7 +37,7 @@ const CaseView = () => {
         </p>
  </div>
  </Link>
- <Link href="/CasePages/Toyota">
+ <Link href="/CasePages/Gs1">
      <div className="box-7">
      <p className="tagline--dope">
      GS1
@@ -47,7 +47,7 @@ const CaseView = () => {
         </p>
  </div>
  </Link>
- <Link href="/CasePages/Toyota">
+ <Link href="/CasePages/Tuk">
      <div className="box-9">
         <p className="tagline--dope">
         TUK
@@ -57,7 +57,7 @@ const CaseView = () => {
         </p>
  </div>
  </Link>
- <Link href="/CasePages/Toyota">
+ <Link href="/CasePages/Qloop">
      <div className="box-11">
      <p className="tagline--dope">
      qloop
@@ -67,7 +67,7 @@ const CaseView = () => {
         </p>
  </div>
  </Link>
- <Link href="/CasePages/Toyota">
+ <Link href="/CasePages/Xsocial">
      <div className="box-13">
      <p className="tagline--dope">
             xsocial
@@ -77,7 +77,7 @@ const CaseView = () => {
         </p>
  </div>
  </Link>
- <Link href="/CasePages/Toyota">
+ <Link href="/CasePages/Propet">
      <div className="box-15">
      <p className="tagline--dope">
             prophet social trading
@@ -87,7 +87,7 @@ const CaseView = () => {
         </p>
  </div>
  </Link>
- <Link href="/CasePages/Toyota">
+ <Link href="/CasePages/Lys">
      <div className="box-17">
      <p className="tagline--dope">
             lys
@@ -100,7 +100,7 @@ const CaseView = () => {
 </div>
 <div className="cal2">
 
-<Link href="/CasePages/Nys">
+<Link href="/CasePages/Canva">
     <div className="box-2">
     <p className="tagline--dope">
     CANVA
@@ -120,7 +120,7 @@ const CaseView = () => {
         </p>
 </div>
 </Link>
-<Link href="/CasePages/Nys">
+<Link href="/CasePages/Sxm">
     <div className="box-6">
     <p className="tagline--dope">
     SXM
@@ -131,7 +131,7 @@ const CaseView = () => {
         </p>
 </div>
 </Link>
-<Link href="/CasePages/Nys">
+<Link href="/CasePages/Learnforce">
     <div className="box-8">
     <p className="tagline--dope">
     Learnforce
@@ -141,7 +141,7 @@ const CaseView = () => {
         </p>
 </div>
 </Link>
-<Link href="/CasePages/Nys">
+<Link href="/CasePages/Shoplift">
     <div className="box-10">
     <p className="tagline--dope">
     shoplift
@@ -151,7 +151,7 @@ const CaseView = () => {
         </p>
 </div>
 </Link>
-<Link href="/CasePages/Nys">
+<Link href="/CasePages/Simple">
     <div className="box-12">
     <p className="tagline--dope">
     simplero
@@ -161,7 +161,7 @@ const CaseView = () => {
         </p>
 </div>
 </Link>
-<Link href="/CasePages/Nys">
+<Link href="/CasePages/Wove">
     <div className="box-14">
     <p className="tagline--dope">
     wove
@@ -171,7 +171,7 @@ const CaseView = () => {
         </p>
 </div>
 </Link>
-<Link href="/CasePages/Nys">
+<Link href="/CasePages/Matchr">
     <div className="box-16">
     <p className="tagline--dope">
     matchr
@@ -181,7 +181,7 @@ const CaseView = () => {
         </p>
 </div>
 </Link>
-<Link href="/CasePages/Nys">
+<Link href="/CasePages/Enter">
     <div className="box-18">
     <p className="tagline--dope">
     enter here

@@ -18,7 +18,7 @@ const Navbar = (props) => {
          <img src="../images/logoalpha.svg"  className="w-8" />
          </Link>  
       </div>
-      <div className="hidden md:block item">
+      <div className="hidden md:block">
         <ul className="flex">
           <li className="ml-6 hover:text-zinc-400">
             <Link href="/alphaway">
