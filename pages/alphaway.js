@@ -16,7 +16,7 @@ const Alphaway = () => {
 <link href="https://fonts.googleapis.com/css2?family=Antonio&family=Archivo&display=swap" rel="stylesheet" />
 </Head>
 <div className='head--section'>
-<Navbar />
+<Navbar  active="text-zinc-400"/>
 <Header />
 </div>
   <Grid />

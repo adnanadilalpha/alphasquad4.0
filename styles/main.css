@@ -1445,8 +1445,14 @@ display: none;
           display: none;
         }
 
+        .cta-1 {
+          height: 96px;
+        }
+
         #cta-1 {
           font-size: 16px;
+          margin-top: 32px;
+          margin-bottom: 32px;
         }
 
 
