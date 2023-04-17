@@ -1201,13 +1201,14 @@ color: #FFFFFF;
     }
 
     .tagline {
-      margin-top: 380px;
+      margin-top: 348px;
+      margin-right: 60px;
+      margin-left: 60px;
     }
 
     .tagline-4 {
-      margin-top: 283px;
-      margin-bottom: 268px;
-        font-size: 28px;
+      margin-top: 203px;
+      margin-bottom: 195px;
         height: auto;
       }
 
@@ -1291,7 +1292,7 @@ display: none;
 
     .tagline {
       font-size: 14px;
-      margin: 170px 24px 0px 24px;
+      margin: 252px 24px 0px 24px;
     }
 
     .description {
@@ -1302,7 +1303,7 @@ display: none;
     .tagline-4 {
     margin-top: 120px;
     margin-bottom: 107px;
-      font-size: 28px;
+    font-size: 48px;
       height: auto;
     }
 
