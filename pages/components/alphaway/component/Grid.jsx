@@ -3,9 +3,9 @@ import React from 'react'
 const Grid = () => {
   return (
 <div className="flex">
-            <div className="flex flex-col items-center justify-between w-full py-12 sm:py-32">
+            <div className="flex flex-col justify-between w-full py-12 sm:py-32">
 <div className='flex flex-col sm:flex-row text-center sm:text-left justify-between items-center px-20 mb-8 md:mb-32'>
-<div className="Basement w-full text-white text-base md:text-xl xl:text-3xl 2xl:text-4xl font-medium uppercase">
+<div className="Basement w-full text-white text-base md:text-xl xl:text-3xl 2xl:text-4xl font-medium uppercase border-r border-zinc-700">
                    <p>
                    Partners over Clients
                    </p>
@@ -20,7 +20,7 @@ const Grid = () => {
                 </div>
 </div>
 <div className='flex flex-col sm:flex-row text-center sm:text-left justify-between items-center px-20 mb-8 md:mb-32'>
-<div className="Basement w-full text-white text-base md:text-xl xl:text-3xl 2xl:text-4xl font-medium uppercase">
+<div className="Basement w-full text-white text-base md:text-xl xl:text-3xl 2xl:text-4xl font-medium uppercase border-r border-zinc-700">
                   <p>
                   People over projects
                   </p>
@@ -37,7 +37,7 @@ const Grid = () => {
                 </div>
 </div>
 <div className='flex flex-col sm:flex-row text-center sm:text-left justify-between items-center px-20'>
-<div className="Basement w-full text-white text-base md:text-xl xl:text-3xl 2xl:text-4xl font-medium uppercase">
+<div className="Basement w-full text-white text-base md:text-xl xl:text-3xl 2xl:text-4xl font-medium uppercase border-r border-zinc-700">
                     <p>in-house over outsource</p>
                 </div>
                 <div className="text-zinc-400 w-full text-base xl:text-2xl 2xl:text-3xl font-normal font px-8">
