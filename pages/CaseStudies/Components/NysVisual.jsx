@@ -87,7 +87,7 @@ the sections we used dark grey divider lines.'/>
 their very own merch store. How sweeet is that?'/>
 
 <Hero img="../Assets/brand.png"/>
-<div class="Nyscontent">
+<div class="m-20">
          <img src="../Assets/Nyscontent.png" alt=""/>
       </div>
 </div>

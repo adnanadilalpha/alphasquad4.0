@@ -6,7 +6,7 @@ const Visual = () => {
   return (
 <>
 <div className="item">
-<div class="container-2">
+<div class="flex justify-center w-full">
       <div class="hero">
          <img src="../Assets/canva.webp" alt=""  class="sctesvg tex" />
       </div>

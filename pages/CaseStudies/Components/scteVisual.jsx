@@ -8,9 +8,9 @@ const Visual = () => {
   return (
 <>
 <div className="item">
-<div class="container-2">
+<div class="">
       <div class="hero-1">
-         <img src="../Assets/SCTEsvg.svg" alt=""  class="sctesvg tex" />
+         <img src="../Assets/scte.png" alt=""  class="sctesvg tex" />
       </div>
     </div>
 <TextBox title="SCTE - IBSE" subTitle="As a non-profit entity whose board includes companies like Comcast and Charter Communications, 

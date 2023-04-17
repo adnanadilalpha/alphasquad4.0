@@ -11,12 +11,11 @@ import { Pagination } from "swiper";
 
 const Swipeer = (props) => {
   return (
-<div className="bg-carousol">
-<div className="wrap-swiper">
+<div className="py-5 2xl:py-16 px-5 2xl:px-20 bg-carousol w-full">
 <Swiper
         slidesPerView={"auto"}
         spaceBetween={30}
-        className="mySwiper"
+        className="mySwiper Swiper"
       >
       <SwiperSlide>
       {props.content1 ? <div>{props.content1}</div> : ""}
@@ -35,7 +34,6 @@ const Swipeer = (props) => {
       <img src={props.img4} alt="" />
       </SwiperSlide>
       </Swiper>
-</div>
 </div>
   )
 }

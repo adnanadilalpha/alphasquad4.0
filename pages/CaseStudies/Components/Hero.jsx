@@ -2,8 +2,8 @@ import React from 'react'
 
 const Hero = (prop) => {
   return (
-<div className="container-4">
-    <div className="hero-2">
+<div className="flex justify-center">
+    <div className="flex justify-center mb-32">
     <img src={prop.img} alt="" />
     </div>
 </div>

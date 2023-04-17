@@ -76,7 +76,7 @@ access to the drivers approved by the ARI moderators.
 
 <Hero img="../Assets/sxm5.webp"/>
 <Hero img="../Assets/sxm6.webp"/>
-<div class="container-4 ">
+<div class="flex justify-center ">
          <img src="../Assets/sxm7.webp" alt=""  />
       </div>
 </div>
