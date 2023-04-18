@@ -1,201 +1,180 @@
-
-
-
 .logo {
-    width: 41px;
+  width: 41px;
 }
 
-
-
 .title1--touch {
-    width: 100%;
-    text-align: center;
-    margin-top: 600px;
-    font-family: 'Archivo';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 100%;    
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    opacity: 0;
-    color: #FFFFFF;
-    transition: all 0.6s ease;
+  width: 100%;
+  text-align: center;
+  margin-top: 600px;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  opacity: 0;
+  color: #ffffff;
+  transition: all 0.6s ease;
 }
 
 .title11 {
-    width: 100%;
-    text-align: center;
-    margin-top: 909px;
-    margin-bottom: 64px;
-    font-family: 'Archivo';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 100%;
-    opacity: 0;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    
-    color: #FFFFFF;
-    transition: all 0.6s ease;
+  width: 100%;
+  text-align: center;
+  margin-top: 909px;
+  margin-bottom: 64px;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 100%;
+  opacity: 0;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  transition: all 0.6s ease;
 }
 
 .title12 {
-    width: 100%;
-    text-align: center;
-    margin-top: 909px;
-    margin-bottom: 64px;
-    font-family: 'Archivo';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 100%;
-    opacity: 0;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    
-    color: #FFFFFF;
-    transition: all 0.6s ease;
+  width: 100%;
+  text-align: center;
+  margin-top: 909px;
+  margin-bottom: 64px;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 100%;
+  opacity: 0;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  transition: all 0.6s ease;
 }
-
-
-
-
-
-
-
 
 .section3 {
-    width: 25%;
-    border-right: 1px solid #3F3F46;
-    background: #000000;
-    position: relative;
-    overflow: hidden;
+  width: 25%;
+  border-right: 1px solid #3f3f46;
+  background: #000000;
+  position: relative;
+  overflow: hidden;
 }
-
-
 
 .section4 {
-    width: 25%;
-    background: #000000;
-    position: relative;
-    overflow: hidden;
+  width: 25%;
+  background: #000000;
+  position: relative;
+  overflow: hidden;
 }
-
-
 
 .title--3 {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 430px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 430px;
 }
 
-
-
 .light1 {
-    position: absolute;
-    width: 100%;
-    height: 563px;
-    left: 154px;
-    top: 960px;
-    opacity: 0;
-    background: #6F6E6E;
-    filter: blur(227px);
-    transition: all 1s ease-in;
+  position: absolute;
+  width: 100%;
+  height: 563px;
+  left: 154px;
+  top: 960px;
+  opacity: 0;
+  background: #6f6e6e;
+  filter: blur(227px);
+  transition: all 1s ease-in;
 }
 
 .light1-off {
-    position: absolute;
-    width: 100%;
-    height: 563px;
-    left: 154px;
-    top: 960px;
-    opacity: 1;
-    background: #6F6E6E;
-    filter: blur(227px);
-    transition: all 1s ease-in;
+  position: absolute;
+  width: 100%;
+  height: 563px;
+  left: 154px;
+  top: 960px;
+  opacity: 1;
+  background: #6f6e6e;
+  filter: blur(227px);
+  transition: all 1s ease-in;
 }
 
 .light2 {
-    position: absolute;
-    width: 100%;
-    height: 563px;
-    top: 960px;
-    opacity: 0;
-    background: #6F6E6E;
-    filter: blur(227px);
-    transition: all 1s ease-in;
+  position: absolute;
+  width: 100%;
+  height: 563px;
+  top: 960px;
+  opacity: 0;
+  background: #6f6e6e;
+  filter: blur(227px);
+  transition: all 1s ease-in;
 }
-
 
 .light3 {
-    position: absolute;
-    width: 100%;
-    height: 563px;
-    left: 0px;
-    top: 960px;
-    opacity: 0;
-    background: #6F6E6E;
-    filter: blur(227px);
-    transition: all 1s ease-in;
+  position: absolute;
+  width: 100%;
+  height: 563px;
+  left: 0px;
+  top: 960px;
+  opacity: 0;
+  background: #6f6e6e;
+  filter: blur(227px);
+  transition: all 1s ease-in;
 }
 
+@media screen and (max-width: 1080px) {
+  .title11,
+  .title12 {
+    margin-top: 440px;
+    margin-bottom: 24px;
+    font-size: 16px;
+  }
 
+  .title1--touch {
+    margin-top: 360px;
+    margin-bottom: 24px;
+    font-size: 16px;
+  }
 
+  .title--3 {
+    margin-top: 163px;
+    font-size: 20px;
+  }
 
- @media screen and (max-width: 1080px) {
-    .title11, .title12 {
-           margin-top: 440px;
-           margin-bottom: 24px;
-           font-size: 16px;
-       }
-   
-       .title1--touch {
-           margin-top: 360px;
-           margin-bottom: 24px;
-           font-size: 16px;
-       }
-   
-       .title--3 {
-           margin-top: 163px;
-           font-size: 20px;
-       }
-   
-       .light2 {
-           top: 360px;
-       }
-   
-       .light3 {
-           top: 360px;
-       }
-    }
+  .light2 {
+    top: 360px;
+  }
 
+  .light3 {
+    top: 360px;
+  }
+}
 
- @media screen and (max-width: 744px) {
- .title11, .title12 {
-        margin-top: 316px;
-        margin-bottom: 24px;
-        font-size: 16px;
-    }
+@media screen and (max-width: 744px) {
+  .title11,
+  .title12 {
+    margin-top: 316px;
+    margin-bottom: 24px;
+    font-size: 16px;
+  }
 
-    .title1--touch {
-        margin-top: 98px;
-        margin-bottom: 24px;
-        font-size: 16px;
-    }
+  .title1--touch {
+    margin-top: 98px;
+    margin-bottom: 24px;
+    font-size: 16px;
+  }
 
-    .title--3 {
-        margin-top: 163px;
-        font-size: 20px;
-    }
+  .title--3 {
+    margin-top: 163px;
+    font-size: 20px;
+  }
 
-    .light2 {
-        top: 360px;
-    }
+  .light2 {
+    top: 360px;
+  }
 
-    .light3 {
-        top: 360px;
-    }
- }
+  .light3 {
+    top: 360px;
+  }
+}

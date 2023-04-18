@@ -1,168 +1,152 @@
 .head--section {
-    background: url(./Assets/circlebg.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  background: url(./Assets/circlebg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .margin-title {
-    margin-top: 840px;
+  margin-top: 840px;
 }
 
 .font-size {
-    font-size: 56px;
+  font-size: 56px;
 }
-
-
 
 .line {
-width: 541px;
-height: 0px;
-border: 1px solid #52525B;
-
+  width: 541px;
+  height: 0px;
+  border: 1px solid #52525b;
 }
-
 
 .Basement {
-font-family: 'Basement Grotesque';
+  font-family: "Basement Grotesque";
 }
-
 
 /* text animation alpha styles */
 
 .animated-alpha {
-    background: #0E0E0E;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
+  background: #0e0e0e;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
 }
 
 .frame {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
-
 
 .rect1 {
-    width: 123px;
-    height: 20px;
+  width: 123px;
+  height: 20px;
 }
 
-
 .rect {
-    width: 123px;
-    height: 123px;
-    background: #FFFFFF;
-    opacity: 0;
-    filter: blur(80px);
-    transition: all 0.2s ease-in-out;
-    overflow: hidden;
+  width: 123px;
+  height: 123px;
+  background: #ffffff;
+  opacity: 0;
+  filter: blur(80px);
+  transition: all 0.2s ease-in-out;
+  overflow: hidden;
 }
 
 .rect:hover {
-    opacity: 1;
-    cursor: pointer;
-    transition: all 0.3s ease-out;
+  opacity: 1;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
 }
 
-
 .logoname {
-    position: relative;
-    width: 1351px;
-    height: 199px;
-    top: 296px;
-    font-family: "Basement Grotesque";
-    font-style: normal;
-    font-weight: 800;
-    font-size: 166px;
-    line-height: 120%;
-    text-align: center;
-    text-transform: uppercase;
-    color: #0E0E0E;
-    z-index: 99;
-    pointer-events: none;
+  position: relative;
+  width: 1351px;
+  height: 199px;
+  top: 296px;
+  font-family: "Basement Grotesque";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 166px;
+  line-height: 120%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #0e0e0e;
+  z-index: 99;
+  pointer-events: none;
 }
 
 .logoname.rect:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 .logocenter img {
-    width: 62px;
-    height: 54px;
+  width: 62px;
+  height: 54px;
 }
-
-
-
-
 
 .alpha {
-    position: relative;
-    width: 1248px;
-    height: 36px;
-    left: 335px;
-    top: 376px;
-    
-    font-family: 'Basement Grotesque';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 30px;
-    line-height: 120%;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    z-index: -99;
-}
+  position: relative;
+  width: 1248px;
+  height: 36px;
+  left: 335px;
+  top: 376px;
 
+  font-family: "Basement Grotesque";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 120%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  z-index: -99;
+}
 
 @media screen and (max-width: 1440px) {
-    .font-size {
-        font-size: 48px;
-    }
+  .font-size {
+    font-size: 48px;
+  }
 
-
-    .logoname {
-        font-size: 96px;
-    }
+  .logoname {
+    font-size: 96px;
+  }
 }
 
-
 @media screen and (max-width: 1260px) {
-    .font-size {
-        font-size: 30px;
-    }
+  .font-size {
+    font-size: 30px;
+  }
 
-    .logoname {
-        font-size: 64px;
-    }
-    .animated-alpha:hover {
-        background-color: #FFFFFF;
-    }
-    .margin-title {
-        margin-top: 410px;
-    }
-    
+  .logoname {
+    font-size: 64px;
+  }
+  .animated-alpha:hover {
+    background-color: #ffffff;
+  }
+  .margin-title {
+    margin-top: 410px;
+  }
 }
 
 @media screen and (max-width: 744px) {
-    .font-size {
-        font-size: 20px;
-    }
+  .font-size {
+    font-size: 20px;
+  }
 
-    .logoname {
-        font-size: 32px;
-    }
-    .animated-alpha:hover {
-        background-color: #FFFFFF;
-    }
+  .logoname {
+    font-size: 32px;
+  }
+  .animated-alpha:hover {
+    background-color: #ffffff;
+  }
 
-    .margin-title {
-        margin-top: 364px;
-    }
+  .margin-title {
+    margin-top: 364px;
+  }
 }
