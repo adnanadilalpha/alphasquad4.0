@@ -42,10 +42,10 @@ const Head = () => {
     cta.style.opacity = "0"
     }
   return (
-    <div className="flex flex-col xl:flex-row w-full">
+    <div className="flex flex-col xl:flex-row w-full h-full">
              <div className="relative overflow-hidden border-b sm:border-r  border-zinc-700 w-full xl:w-1/2" id="section2" onMouseMove={Hover1} onMouseOut= {Hover1Leave}>
                  <div className="light1" id='light1'></div>
-                 <div className="relative p-14 border-r border-b border-zinc-700 w-full xl:w-96">
+                 <div className="relative p-14 border-b border-r border-zinc-700 w-full xl:w-96">
                      <Link href="/"><img src="../images/logoalpha.svg" alt="" className="logo" /></Link>
                      <p className="Basement text-xl md:text-3xl xl:text-base text-center sm:text-left font-extrabold uppercase text-white mt-64 xl:mt-12 mb-4 tracking-wider">
                          Get in touch with the right people.  
@@ -64,21 +64,21 @@ const Head = () => {
              </div>
 
      <div className="relative overflow-hidden border-b xl:border-r  border-zinc-700 w-full xl:w-1/4" id="section3" onMouseMove={Hover2} onMouseOut= {Hover2Leave}>
-        <div className="light2 opacity2" id="light2"></div>
+        <div className="light2" id="light2"></div>
         <p className="flex justify-center text-white text-3xl 2xl:text-5xl font-extrabold absolute uppercase text-center title--3 Basement">
             design  
         </p>
-        <p className="title11 opacity2" id="title11">
+        <p className="title11 " id="title11">
             Get in touch
         </p>
       </div>
 
-       <div className="relative overflow-hidden border-r  border-zinc-700 w-full xl:w-1/4" id="section4" onMouseMove={Hover3} onMouseOut= {Hover3Leave}>
-        <div className="light3 opacity3" id="light3"></div>
+       <div className="relative overflow-hidden border-b xl:border-r  border-zinc-700 w-full xl:w-1/4" id="section4" onMouseMove={Hover3} onMouseOut= {Hover3Leave}>
+        <div className="light3" id="light3"></div>
         <p className="flex justify-center text-white text-3xl 2xl:text-5xl font-extrabold absolute uppercase text-center  title--3 Basement">
             development  
         </p>
-        <p className="title12 opacity3" id="title12">
+        <p className="title12" id="title12">
             Get in touch
         </p>
        </div>
