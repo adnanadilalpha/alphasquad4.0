@@ -19,7 +19,7 @@ const people = () => {
         />
       </Head>
       <div className="people--head">
-        <Navbar />
+        <Navbar name="light-wrap"/>
         <Header />
       </div>
       <Begin />

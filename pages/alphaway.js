@@ -19,7 +19,7 @@ const Alphaway = () => {
         />
       </Head>
       <div className="head--section">
-        <Navbar active="text-zinc-400" />
+        <Navbar name="light-wrap" />
         <Header />
       </div>
       <Grid />
