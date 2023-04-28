@@ -21,7 +21,7 @@ export default function Home() {
       </Head>
 
       <main className={Basement.className}>
-        <Navbar />
+        <Navbar name="light-wrap"/>
         <Header
           title="big or small"
           subTitle="the great never settle for good"

@@ -18,7 +18,7 @@ const dope = () => {
           rel="stylesheet"
         />
       </Head>
-      <Navbar />
+      <Navbar name="light-off"/>
       <Flex />
       <CaseView />
       <Button />
