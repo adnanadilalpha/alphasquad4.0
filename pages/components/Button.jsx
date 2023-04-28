@@ -6,7 +6,7 @@ const Button = () => {
     <Link href="/book">
       <div className="cta-1">
         <p id="cta-1" className="active">
-          Book a call now
+          Book a free consultation
         </p>
 
         <div className="light-2"></div>

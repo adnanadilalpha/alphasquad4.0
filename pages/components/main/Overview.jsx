@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import Link from "next/link";
 import Button from "../Button";
+import Arsalan from "./Arsalan";
 
 const overview = () => {
   function Cutton() {
@@ -26,9 +27,7 @@ const overview = () => {
   }
   return (
     <div>
-      <div className="para-1">
-        <p>Why settle for mediocrity?</p>
-      </div>
+<Arsalan />
 
       <Button />
 
@@ -44,6 +43,14 @@ const overview = () => {
             </div>
           </Link>
 
+          <Link href="/CasePages/Sxm">
+            <div className="box-sxm">
+              <p className="tagline">Sirius Xm radio</p>
+              <p className="description">
+              SXM - National enrolment system for driver onboarding
+              </p>
+            </div>
+          </Link>
           <Link href="/CasePages/Toyota">
             <div className="box-toyota">
               <p className="tagline">TOYOTA</p>
@@ -55,12 +62,19 @@ const overview = () => {
           </Link>
         </div>
         <div className="cal2">
-          <Link href="/CasePages/Nys">
-            <div className="box-nys">
-              <p className="tagline">the new york sun</p>
+          <Link href="/CasePages/Learnforce">
+            <div className="box-learn">
+              <p className="tagline">LEARNFORCE</p>
               <p className="description">
-                The resurgence of a 200- year old, Pulitzer winning publication,
-                in the digital era.
+              Developing One of Europe’s biggest Online Learning Platforms (PaaS)
+              </p>
+            </div>
+          </Link>
+          <Link href="/CasePages/Tuk">
+            <div className="box-tuk">
+              <p className="tagline">TUK</p>
+              <p className="description">
+              Tailwind UI Kit - Tailwind CSS components & templates 
               </p>
             </div>
           </Link>
