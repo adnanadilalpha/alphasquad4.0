@@ -700,6 +700,7 @@ filter: blur(227px);
   transition: all 1s ease-in;
 }
 
+
 .box-toyota {
   border-right: 1px solid #3f3f46;
   border-top: 1px solid #3f3f46;
@@ -1399,6 +1400,73 @@ filter: blur(227px);
   .para-1 {
     margin-top: 64px;
   }
+
+  .box-scte {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.1) 0%,
+        rgba(0, 0, 0, 0.5) 69.48%
+      ),
+      url(../images/scte.webp) no-repeat;
+    background-size: cover;
+  }
+
+  .box-sxm {
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.1) 0%,
+        rgba(0, 0, 0, 0.9) 69.48%
+      ),
+      url(../public/Assets/sxm1.webp);
+    background-size: cover;
+  }
+  
+  .box-tuk {
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.1) 0%,
+        rgba(0, 0, 0, 0.9) 69.48%
+      ),
+      url(../public/Assets/tukh.png);
+    background-size: cover;
+  }
+  
+  .box-learn {
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.1) 0%,
+        rgba(0, 0, 0, 0.9) 69.48%
+      ),
+      url(../public/Assets/learnforceh.png);
+    background-size: cover;
+  }
+
+  .box-toyota {
+    border-left: 0;
+    border-right: 0;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.1) 0%,
+        rgba(0, 0, 0, 0.9) 69.48%
+      ),
+      url(../images/toyota.webp);
+    background-size: cover;
+  }
+
+  .box-nys {
+    border-left: 0;
+    border-right: 0;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.1) 0%,
+        rgba(0, 0, 0, 0.9) 69.48%
+      ),
+      url(../images/sun.webp);
+    background-size: cover;
+  }
 }
 
 @media screen and (max-width: 744px) {
@@ -1503,6 +1571,36 @@ filter: blur(227px);
         rgba(0, 0, 0, 0.5) 69.48%
       ),
       url(../images/scte.webp) no-repeat;
+    background-size: cover;
+  }
+
+  .box-sxm {
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.1) 0%,
+        rgba(0, 0, 0, 0.9) 69.48%
+      ),
+      url(../public/Assets/sxm1.webp);
+    background-size: cover;
+  }
+  
+  .box-tuk {
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.1) 0%,
+        rgba(0, 0, 0, 0.9) 69.48%
+      ),
+      url(../public/Assets/tukh.png);
+    background-size: cover;
+  }
+  
+  .box-learn {
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.1) 0%,
+        rgba(0, 0, 0, 0.9) 69.48%
+      ),
+      url(../public/Assets/learnforceh.png);
     background-size: cover;
   }
 

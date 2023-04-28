@@ -28,7 +28,6 @@ export default function Home() {
         />
         <Clients />
         <Feature />
-        <Team name1="Team" name2="focuses" name3="results" />
         <Overview />
       </main>
 

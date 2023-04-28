@@ -16,11 +16,11 @@ const overview = () => {
     return (
       <Link href="/dope">
         <p
-          className="shiny tagline-4 text-center"
+          className="shiny tagline-4 text-center "
           onMouseMove={handleMouseMove}
           ref={buttonRef}
         >
-          Dope stuff behind the box
+          Book a Free Consultation
         </p>
       </Link>
     );
