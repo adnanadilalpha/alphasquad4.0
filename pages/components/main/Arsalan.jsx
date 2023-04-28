@@ -3,7 +3,7 @@ import React from 'react'
 function Arsalan() {
   return (
     // Title
-<div className='flex border-t border-zinc-700'>
+<div className='flex-none xl:flex border-t border-zinc-700'>
 {/* Container details */}
 <div className='Ml'>
 <div className='flex items-center Urbanist font-semibold text-5xl mb-4 mt-12 text-white'>
@@ -17,7 +17,7 @@ function Arsalan() {
     </div>
 
     {/* Description */}
-    <div className='light-gray font-light text-lg font mr-24'>
+    <div className='light-gray font-light text-lg font mr-6 xl:mr-24'>
         <p>
         I stand by one thing and one thing only and that's GSD 
         (Getting S**t Done, prolly should trademark GSD). 

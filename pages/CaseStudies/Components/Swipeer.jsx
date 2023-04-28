@@ -7,14 +7,20 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 // import required modules
-import { Pagination } from "swiper";
+import { Pagination, Autoplay} from "swiper";
 
 const Swipeer = (props) => {
   return (
-    <div className="py-5 2xl:py-16 px-5 2xl:px-20 bg-carousol w-full">
+    <div className="py-5 2xl:py-16 px-5 2xl:pl-96 bg-carousol w-full">
       <Swiper
         slidesPerView={"auto"}
-        spaceBetween={30}
+        spaceBetween={240}
+        centeredSlides={true}
+        autoplay={{
+          delay: 1500,
+          disableOnInteraction: false,
+        }}
+        modules={[Autoplay]}
         className="mySwiper Swiper"
       >
         <SwiperSlide>
