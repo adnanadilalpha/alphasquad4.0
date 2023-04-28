@@ -2,6 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* colors predefined */
+
+.Dark-gray {
+  color: #A1A1AA;
+}
+
+.light-gray {
+  color: #D4D4D8;
+}
+
+
+.w-111 {
+  width: 1013px;
+}
+
+.img-size {
+  max-width: 621px;
+  max-height: 658px;
+}
+
+
+.Ml {
+  margin-left: 192px;
+}
+
 .font {
   font-family: "Archivo";
 }
@@ -12,6 +38,10 @@
 
 .Basement {
   font-family: "Basement Grotesque";
+}
+
+.Urbanist {
+  font-family: 'Urbanist', sans-serif;
 }
 
 .margin-top {
@@ -58,6 +88,9 @@ swiper-slide {
   .margin-top {
     margin-top: 336px;
   }
+  .w-111 {
+    width: 564px;
+  }
 }
 
 @media screen and (max-width: 744px) {
@@ -68,6 +101,10 @@ swiper-slide {
   .px-595 {
     padding-left: 14px;
     padding-right: 14px;
+  }
+
+  .w-111 {
+    width: 358px;
   }
 }
 

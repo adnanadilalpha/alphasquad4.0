@@ -1,3 +1,14 @@
+.light-wrap {
+  position: absolute;
+width: 563px;
+height: 563px;
+left: 682px;
+top: -421px;
+
+background: #6F6E6E;
+filter: blur(227px);
+}
+
 #curve-image1 {
   position: absolute;
   top: 0px;
@@ -613,7 +624,7 @@
 /* overview css style */
 
 .para-1 {
-  margin: 237px auto 96px auto;
+  margin: 233px auto 96px auto;
   font-family: "Archivo";
   font-style: italic;
   font-weight: 300;
@@ -683,17 +694,37 @@
 }
 
 .box-scte {
-  border: 1px solid #3f3f46;
+  border-right: 1px solid #3f3f46;
+  border-top: 1px solid #3f3f46;
+  border-bottom: 1px solid #3f3f46;
   transition: all 1s ease-in;
 }
 
 .box-toyota {
-  border: 1px solid #3f3f46;
+  border-right: 1px solid #3f3f46;
+  border-top: 1px solid #3f3f46;
+  border-bottom: 0.5px solid #3f3f46;
   transition: all 1s linear;
 }
 
-.box-nys {
-  border: 1px solid #3f3f46;
+.box-sxm {
+  border-right: 1px solid #3f3f46;
+  border-top: 1px solid #3f3f46;
+  border-bottom: 0.5px solid #3f3f46;
+  transition: all 1s linear;
+}
+
+.box-tuk {
+  border-right: 1px solid #3f3f46;
+  border-top: 1px solid #3f3f46;
+  border-bottom: 0.5px solid #3f3f46;
+  transition: all 1s linear;
+}
+
+.box-learn {
+  border-left: 1px solid #3f3f46;
+  border-top: 1px solid #3f3f46;
+  border-bottom: 1px solid #3f3f46;
   transition: all 1s linear;
 }
 
@@ -701,7 +732,9 @@
   background: url(../images/dopestuf.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  border: 1px solid #3f3f46;
+  border-left: 1px solid #3f3f46;
+  border-top: 1px solid #3f3f46;
+  border-bottom: 1px solid #3f3f46;
   display: flex;
   justify-content: center;
 }
@@ -800,13 +833,33 @@
   background-size: cover;
 }
 
-.box-nys:hover {
+.box-sxm:hover {
   background: linear-gradient(
       180deg,
       rgba(0, 0, 0, 0.1) 0%,
       rgba(0, 0, 0, 0.9) 69.48%
     ),
-    url(../images/sun.webp);
+    url(../public/Assets/sxm1.webp);
+  background-size: cover;
+}
+
+.box-tuk:hover {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.1) 0%,
+      rgba(0, 0, 0, 0.9) 69.48%
+    ),
+    url(../public/Assets/tukh.png);
+  background-size: cover;
+}
+
+.box-learn:hover {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.1) 0%,
+      rgba(0, 0, 0, 0.9) 69.48%
+    ),
+    url(../public/Assets/learnforceh.png);
   background-size: cover;
 }
 
@@ -824,7 +877,9 @@
   position: relative;
   height: 462px;
   background: #000000;
-  border: 1px solid #3f3f46;
+  border-right: 1px solid #3f3f46;
+  border-top: 1px solid #3f3f46;
+  border-bottom: 0.5px solid #3f3f46;
   z-index: 1;
   overflow: hidden;
 }
@@ -845,7 +900,9 @@
   position: relative;
   height: 462px;
   background: #000000;
-  border: 1px solid #3f3f46;
+  border-right: 1px solid #3f3f46;
+  border-top: 1px solid #3f3f46;
+  border-bottom: 0.5px solid #3f3f46;
   z-index: 1;
   overflow: hidden;
 }
@@ -862,7 +919,9 @@
   position: relative;
   height: 462px;
   background: #000000;
-  border: 1px solid #3f3f46;
+  border-left: 1px solid #3f3f46;
+  border-top: 1px solid #3f3f46;
+  border-bottom: 1px solid #3f3f46;
   z-index: 1;
   overflow: hidden;
 }
@@ -883,7 +942,9 @@
   position: relative;
   height: 462px;
   background: #000000;
-  border: 1px solid #3f3f46;
+  border-left: 1px solid #3f3f46;
+  border-top: 1px solid #3f3f46;
+  border-bottom: 1px solid #3f3f46;
   z-index: 1;
   overflow: hidden;
 }
