@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 // import required modules
-import { Autoplay } from "swiper";
+import { Autoplay, Parallax } from "swiper";
 
 export default function Swipeer() {
   return (
@@ -16,16 +16,18 @@ export default function Swipeer() {
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
+        parallax={true}
+        speed={1200}
         autoplay={{
           delay: 3500,
           disableOnInteraction: false,
         }}
-        modules={[Autoplay]}
+        modules={[ Autoplay, Parallax]}
         className="mySwiper container mt-32 text-center w-111"
       >
         <SwiperSlide>
           <div className="flex flex-col items-center gap-y-8">
-            <p className="text-xl md:text-3xl text-neutral-400 font font-normal">
+            <p className="text-xl md:text-3xl text-zinc-400 font font-normal">
             ‘The man, the myth, the legend. Arslan is a go-getter who’s come through 
             for us numerous times during the last 15 months. 
             Whether it’s coming with complex architectures, 
