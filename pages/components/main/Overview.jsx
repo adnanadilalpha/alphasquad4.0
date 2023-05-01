@@ -120,7 +120,7 @@ const overview = () => {
 
 
         <div class="border border-zinc-700  box-center">
-            <p class="text">
+            <p class="text px-28 py-14">
                 By the numbers
             </p>
         </div>
