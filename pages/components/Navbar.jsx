@@ -21,16 +21,16 @@ const Navbar = (props) => {
       <div className="hidden md:block">
         <ul className="flex">
           <li className="ml-6 hover:text-zinc-400">
-            <Link href="/">Testimonials</Link>
+            <Link href="#Testimonial">Testimonials</Link>
           </li>
           <li className="ml-6 hover:text-zinc-400">
-            <Link href="/">About</Link>
+            <Link href="#About">About</Link>
           </li>
           <li className="ml-6 hover:text-zinc-400">
-            <Link href="/">Portfolio</Link>
+            <Link href="#Portfolio">Portfolio</Link>
           </li>
           <li className="ml-6 hover:text-zinc-400">
-            <Link href="/">Stats</Link>
+            <Link href="#Stats">Stats</Link>
           </li>
           <li className="ml-6 hover:text-zinc-400">
             <Link href="/book">Book a consultation</Link>

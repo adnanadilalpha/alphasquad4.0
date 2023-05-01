@@ -3,7 +3,7 @@ import React from 'react'
 function Arsalan() {
   return (
     // Title
-<div className='flex-none xl:flex border-t border-zinc-700'>
+<div className='flex-none xl:flex border-t border-zinc-700' id='About'>
 {/* Container details */}
 <div className='Ml'>
 <div className='flex items-center Urbanist font-semibold text-5xl mb-4 mt-12 text-white'>

@@ -31,7 +31,7 @@ const overview = () => {
 
       <Button />
 
-      <div className="wrap-box">
+      <div className="wrap-box" id="Portfolio">
         <div className="cal1-scte">
           <Link href="/CasePages/Scte">
             <div className="box-scte">
@@ -83,7 +83,7 @@ const overview = () => {
         </div>
       </div>
 
-      <div className="wrap-box-2">
+      <div className="wrap-box-2" id="Stats">
         <div className="box-five box">
           <dl className="direction-aware-hover">
             <dt className="direction-aware-hover__left"></dt>
