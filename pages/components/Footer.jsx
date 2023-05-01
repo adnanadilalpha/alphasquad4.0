@@ -35,7 +35,7 @@ const Footer = () => {
           </a>
         </ul>
       </div>
-      <div className="flex flex-col md:flex md:flex-row md:justify-between gap-x-0 md:gap-x-72">
+      <div className="flex flex-col md:flex md:flex-row md:justify-between gap-x-0 xl:gap-x-28 2xl:gap-x-72">
         <div className="mb-8 text-center md:text-left">
           <p className="text-zinc-400 text-sm sm:text-2xl font font-light w-full">
             UP CLOSE AND PERSONAL

@@ -37,8 +37,7 @@ const overview = () => {
             <div className="box-scte">
               <p className="tagline">SCTE - ISBE</p>
               <p className="description">
-                Digital transformation of SCTE's 15 year old legacy system on a
-                serverless infrastructure
+              Leader in standards development for the cable industry.
               </p>
             </div>
           </Link>

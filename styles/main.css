@@ -801,7 +801,7 @@ filter: blur(227px);
       rgba(0, 0, 0, 0.1) 0%,
       rgba(0, 0, 0, 0.5) 69.48%
     ),
-    url(../images/scte.webp) no-repeat;
+    url(../public/Assets/scte.png) no-repeat;
   background-size: cover;
 }
 
@@ -1181,6 +1181,17 @@ filter: blur(227px);
     line-height: 140%;
   }
 
+  .light-wrap {
+    position: absolute;
+    width: 273px;
+    height: 273px;
+    left: 500px;
+    top: -162px;
+    
+    background: #6F6E6E;
+    
+  }
+
   .gif-team {
     width: 400px;
     left: 445px;
@@ -1228,8 +1239,8 @@ filter: blur(227px);
   }
 
   .tagline-4 {
-    margin-top: 203px;
-    margin-bottom: 195px;
+    margin-top: 195px;
+    margin-bottom: 170px;
     height: auto;
   }
 
@@ -1243,6 +1254,18 @@ filter: blur(227px);
   .wrap-text-anima {
     font-size: 32px;
     line-height: 140%;
+  }
+
+  .light-wrap {
+    position: absolute;
+    width: 273px;
+    height: 273px;
+    left: 220px;
+    top: -202px;
+    
+    background: #6F6E6E;
+    filter: blur(122px);
+    
   }
 
   .gif-1 {
@@ -1314,8 +1337,8 @@ filter: blur(227px);
   }
 
   .tagline-4 {
-    margin-top: 120px;
-    margin-bottom: 107px;
+    margin-top: 98px;
+    margin-bottom: 110px;
     font-size: 48px;
     height: auto;
   }
@@ -1391,7 +1414,7 @@ filter: blur(227px);
         rgba(0, 0, 0, 0.1) 0%,
         rgba(0, 0, 0, 0.5) 69.48%
       ),
-      url(../images/scte.webp) no-repeat;
+      url(../public/Assets/scte.png) no-repeat;
     background-size: cover;
   }
 
@@ -1551,7 +1574,7 @@ filter: blur(227px);
         rgba(0, 0, 0, 0.1) 0%,
         rgba(0, 0, 0, 0.5) 69.48%
       ),
-      url(../images/scte.webp) no-repeat;
+      url(../public/Assets/scte.png) no-repeat;
     background-size: cover;
   }
 
