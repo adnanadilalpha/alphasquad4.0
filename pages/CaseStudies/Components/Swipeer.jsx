@@ -16,10 +16,6 @@ const Swipeer = (props) => {
         slidesPerView={"auto"}
         spaceBetween={240}
         centeredSlides={true}
-        autoplay={{
-          delay: 1500,
-          disableOnInteraction: false,
-        }}
         modules={[Autoplay]}
         className="mySwiper Swiper"
       >
