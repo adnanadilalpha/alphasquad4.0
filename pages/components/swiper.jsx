@@ -12,7 +12,7 @@ import { Autoplay, Parallax } from "swiper";
 
 export default function Swipeer() {
   return (
-    <>
+    <div id="Testimonial">
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -148,6 +148,6 @@ export default function Swipeer() {
           </div>
         </SwiperSlide>
       </Swiper>
-    </>
+    </div>
   );
 }
