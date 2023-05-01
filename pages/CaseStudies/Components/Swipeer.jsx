@@ -11,7 +11,7 @@ import { Pagination, Autoplay} from "swiper";
 
 const Swipeer = (props) => {
   return (
-    <div className="py-5 2xl:py-16 px-5 2xl:pl-96 bg-carousol w-full">
+    <div className="py-5 2xl:py-16  bg-carousol w-full">
       <Swiper
         slidesPerView={"auto"}
         spaceBetween={240}
