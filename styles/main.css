@@ -11,9 +11,6 @@ filter: blur(227px);
 
 .box-center {
   background-color: #000000;
-  position: absolute;
-  left: 684px;
-  top: 5638px;
   z-index: 9999;
 }
 
@@ -785,7 +782,7 @@ filter: blur(227px);
   max-width: 695px;
   height: 154px;
   margin: 283px auto 283px auto;
-  font-family: "Archivo";
+  font-family: "Basement Grotesque";
   font-style: normal;
   font-weight: 800;
   font-size: 64px;
@@ -796,32 +793,7 @@ filter: blur(227px);
   transition: all 0.9s ease-in-out;
 }
 
-.shiny {
-  position: relative;
-  border: none;
-  border-radius: 10px;
-  font-weight: bold;
-  cursor: pointer;
-  overflow: hidden;
-}
 
-.shiny::after {
-  content: "";
-  position: absolute;
-  top: calc(var(--y, 0) * 1px - 10px);
-  left: calc(var(--x, 0) * 1px - 10px);
-  width: 40px;
-  height: 20px;
-  background: #fafafa;
-  filter: blur(10px);
-  opacity: 0;
-  z-index: 1;
-  transition: opacity 0.4s;
-}
-
-.shiny:hover::after {
-  opacity: 0.4;
-}
 
 .box-scte:hover {
   background: linear-gradient(
