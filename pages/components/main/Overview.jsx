@@ -119,11 +119,13 @@ const overview = () => {
         </div>
 
 
-        <div class="border border-zinc-700  box-center">
-            <p class="text px-28 py-14">
+<div className="flex items-center justify-center mt-96 absolute w-full">
+          <div class="border border-zinc-700  box-center">
+            <p class="text-zinc-400 Basement text-3xl uppercase font-extrabold px-28 py-14">
                 By the numbers
             </p>
         </div>
+</div>
         <div className="box-seven box">
           <dl className="direction-aware-hover">
             <dt className="direction-aware-hover__left"></dt>
