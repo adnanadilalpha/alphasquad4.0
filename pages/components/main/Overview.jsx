@@ -118,6 +118,12 @@ const overview = () => {
           </div>
         </div>
 
+
+        <div class="border border-zinc-700  box-center">
+            <p class="text">
+                By the numbers
+            </p>
+        </div>
         <div className="box-seven box">
           <dl className="direction-aware-hover">
             <dt className="direction-aware-hover__left"></dt>
@@ -129,6 +135,7 @@ const overview = () => {
               <div className="people">Partner Retention</div>
             </dd>
           </dl>
+
           <div className="in-box7">
             <p className="num2">90%</p>
             <p className="sub-title2">Partner Retention</p>
