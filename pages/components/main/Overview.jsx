@@ -14,7 +14,7 @@ const overview = () => {
     }
 
     return (
-      <Link href="/dope">
+      <Link href="/book">
         <p
           className="shiny tagline-4 text-center "
           onMouseMove={handleMouseMove}
