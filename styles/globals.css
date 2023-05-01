@@ -45,7 +45,7 @@
 }
 
 .margin-top {
-  margin-top: 700px;
+  margin-top: 616px;
 }
 
 .px-595 {
@@ -87,7 +87,7 @@ swiper-slide {
 @media screen and (max-width: 1280px) {
   .img-size {
     max-width: 744px;
-    max-height: 642px;;
+    max-height: 642px;
   }
 }
 
