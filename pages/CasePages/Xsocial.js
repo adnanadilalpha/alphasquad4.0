@@ -16,7 +16,7 @@ const Scte = () => {
           rel="stylesheet"
         />
       </Head>
-      <Navbar name="light" />
+      <Navbar name="light-wrap" />
       <Header title="XSocial" desc="XSocial - Dashboard" />
       <XsocialVisual />
       <Button />

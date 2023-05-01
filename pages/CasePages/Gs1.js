@@ -16,7 +16,7 @@ const Scte = () => {
           rel="stylesheet"
         />
       </Head>
-      <Navbar name="light" />
+      <Navbar name="light-wrap" />
       <Header title="GS1" desc="Marketing Automation" />
       <Gs1Visual />
       <Button />

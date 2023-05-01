@@ -10,7 +10,7 @@ const Visual = () => {
       <div className="item">
         <div class="">
           <div class="hero-1">
-            <img src="../Assets/scte.png" alt="" class="sctesvg tex" />
+            <img src="../Assets/scteh.png" alt="" class="sctesvg tex" />
           </div>
         </div>
         <TextBox

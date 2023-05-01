@@ -16,7 +16,7 @@ const Scte = () => {
           rel="stylesheet"
         />
       </Head>
-      <Navbar name="light" />
+      <Navbar name="light-wrap" />
       <Header
         title="Shoplift"
         desc="An A/B Testing tool for Shopify merchants."

@@ -5,20 +5,10 @@ import Arsalan from "./Arsalan";
 
 const overview = () => {
   function Cutton() {
-    const buttonRef = useRef(null);
-
-    function handleMouseMove(e) {
-      const { x, y } = buttonRef.current.getBoundingClientRect();
-      buttonRef.current.style.setProperty("--x", e.clientX - x);
-      buttonRef.current.style.setProperty("--y", e.clientY - y);
-    }
-
     return (
       <Link href="/book">
         <p
           className="shiny tagline-4 text-center "
-          onMouseMove={handleMouseMove}
-          ref={buttonRef}
         >
           Book a Free Consultation
         </p>
@@ -50,12 +40,11 @@ const overview = () => {
               </p>
             </div>
           </Link>
-          <Link href="/CasePages/Toyota">
-            <div className="box-toyota">
-              <p className="tagline">TOYOTA</p>
+          <Link href="/CasePages/Gs1">
+            <div className="box-gs1">
+              <p className="tagline">GS1</p>
               <p className="description">
-                More is more - 87% increase in conversion through UX
-                optimization
+              Automation & management of GS1’s marketing funnels
               </p>
             </div>
           </Link>
@@ -69,11 +58,11 @@ const overview = () => {
               </p>
             </div>
           </Link>
-          <Link href="/CasePages/Tuk">
-            <div className="box-tuk">
-              <p className="tagline">TUK</p>
+          <Link href="/CasePages/Mouse">
+            <div className="box-mouse">
+              <p className="tagline">Finalmouse</p>
               <p className="description">
-              Tailwind UI Kit - Tailwind CSS components & templates 
+              Developing a repair management system with the speed of Flash
               </p>
             </div>
           </Link>
@@ -149,12 +138,12 @@ const overview = () => {
             <dt className="direction-aware-hover__top"></dt>
             <dt className="direction-aware-hover__bottom"></dt>
             <dd className="direction-aware-hover__content">
-              <div className="numb">29,000+</div>
+              <div className="numb">19,000+</div>
               <div className="people">Hours in the business</div>
             </dd>
           </dl>
           <div className="in-box8">
-            <p className="num3">29,000+</p>
+            <p className="num3">19,000+</p>
             <p className="sub-title3">Hours in the business</p>
           </div>
         </div>

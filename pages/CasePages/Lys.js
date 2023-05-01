@@ -16,7 +16,7 @@ const Scte = () => {
           rel="stylesheet"
         />
       </Head>
-      <Navbar name="light" />
+      <Navbar name="light-wrap" />
       <Header title="LYS" desc="Love Yourself - Best exercise plan you get" />
       <LysVisual />
       <Button />

@@ -2,7 +2,7 @@
   position: absolute;
 width: 563px;
 height: 563px;
-left: 682px;
+left: 40%;
 top: -421px;
 
 background: #6F6E6E;
@@ -707,7 +707,7 @@ filter: blur(227px);
 }
 
 
-.box-toyota {
+.box-gs1 {
   border-right: 1px solid #3f3f46;
   border-top: 1px solid #3f3f46;
   border-bottom: 0.5px solid #3f3f46;
@@ -721,7 +721,7 @@ filter: blur(227px);
   transition: all 1s linear;
 }
 
-.box-tuk {
+.box-mouse {
   border-right: 1px solid #3f3f46;
   border-top: 1px solid #3f3f46;
   border-bottom: 0.5px solid #3f3f46;
@@ -794,6 +794,10 @@ filter: blur(227px);
 }
 
 
+.shiny:hover {
+  color: white;
+}
+
 
 .box-scte:hover {
   background: linear-gradient(
@@ -805,13 +809,13 @@ filter: blur(227px);
   background-size: cover;
 }
 
-.box-toyota:hover {
+.box-gs1:hover {
   background: linear-gradient(
       180deg,
       rgba(0, 0, 0, 0.1) 0%,
       rgba(0, 0, 0, 0.9) 69.48%
     ),
-    url(../images/toyota.webp);
+    url(../public/Assets/gs11.webp);
   background-size: cover;
 }
 
@@ -825,13 +829,13 @@ filter: blur(227px);
   background-size: cover;
 }
 
-.box-tuk:hover {
+.box-mouse:hover {
   background: linear-gradient(
       180deg,
       rgba(0, 0, 0, 0.1) 0%,
       rgba(0, 0, 0, 0.9) 69.48%
     ),
-    url(../public/Assets/tukh.png);
+    url(../public/Assets/mouse.png);
   background-size: cover;
 }
 
@@ -1426,13 +1430,13 @@ filter: blur(227px);
     background-size: cover;
   }
   
-  .box-tuk {
+  .box-mouse {
     background: linear-gradient(
         180deg,
         rgba(0, 0, 0, 0.1) 0%,
         rgba(0, 0, 0, 0.9) 69.48%
       ),
-      url(../public/Assets/tukh.png);
+      url(../public/Assets/mouse.png);
     background-size: cover;
   }
   
@@ -1446,7 +1450,7 @@ filter: blur(227px);
     background-size: cover;
   }
 
-  .box-toyota {
+  .box-gs1 {
     border-left: 0;
     border-right: 0;
     background: linear-gradient(
@@ -1454,7 +1458,7 @@ filter: blur(227px);
         rgba(0, 0, 0, 0.1) 0%,
         rgba(0, 0, 0, 0.9) 69.48%
       ),
-      url(../images/toyota.webp);
+      url(../public/Assets/gs11.webp);
     background-size: cover;
   }
 
@@ -1586,13 +1590,13 @@ filter: blur(227px);
     background-size: cover;
   }
   
-  .box-tuk {
+  .box-mouse {
     background: linear-gradient(
         180deg,
         rgba(0, 0, 0, 0.1) 0%,
         rgba(0, 0, 0, 0.9) 69.48%
       ),
-      url(../public/Assets/tukh.png);
+      url(../public/Assets/mouse.png);
     background-size: cover;
   }
   
@@ -1606,7 +1610,7 @@ filter: blur(227px);
     background-size: cover;
   }
 
-  .box-toyota {
+  .box-gs1 {
     border-left: 0;
     border-right: 0;
     background: linear-gradient(
@@ -1614,7 +1618,7 @@ filter: blur(227px);
         rgba(0, 0, 0, 0.1) 0%,
         rgba(0, 0, 0, 0.9) 69.48%
       ),
-      url(../images/toyota.webp);
+      url(../public/Assets/gs11.webp);
     background-size: cover;
   }
 

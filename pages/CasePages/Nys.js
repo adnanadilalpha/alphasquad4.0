@@ -16,7 +16,7 @@ const Scte = () => {
           rel="stylesheet"
         />
       </Head>
-      <Navbar name="light" />
+      <Navbar name="light-wrap" />
       <Header
         title="The New York Sun"
         desc="Digital Transformation for a 200-year old - Pulitzer winning publication. "

@@ -16,7 +16,7 @@ const Scte = () => {
           rel="stylesheet"
         />
       </Head>
-      <Navbar name="light" />
+      <Navbar name="light-wrap" />
       <Header title="TOYOTA " desc="87% increase in convert" />
       <ToyotaVisual />
       <Button />

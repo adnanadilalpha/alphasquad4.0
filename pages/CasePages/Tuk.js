@@ -16,7 +16,7 @@ const Scte = () => {
           rel="stylesheet"
         />
       </Head>
-      <Navbar name="light" />
+      <Navbar name="light-wrap" />
       <Header
         title="TUK"
         desc="Tailwind UI Kit - Tailwind CSS components & templates "

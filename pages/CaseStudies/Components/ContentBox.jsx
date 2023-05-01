@@ -4,9 +4,9 @@ import Hero from "./Hero";
 const ContentBox = (prop) => {
   return (
     <>
-      <div className="container-5">
+      <div className="flex flex-col justify-center items-center">
         <Hero img={prop.img} />
-        <div className="title-5">
+        <div className="text-white text-lg xl:text-xl 2xl:text-5xl tracking-wide uppercase Basement mb-28">
           <p>{prop.title}</p>
         </div>
       </div>
