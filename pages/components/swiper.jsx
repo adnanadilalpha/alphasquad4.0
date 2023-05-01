@@ -17,7 +17,7 @@ export default function Swipeer() {
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
-          delay: 2000,
+          delay: 3500,
           disableOnInteraction: false,
         }}
         modules={[Autoplay]}
