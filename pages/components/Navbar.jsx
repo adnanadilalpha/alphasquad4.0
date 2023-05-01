@@ -9,7 +9,7 @@ const Navbar = (props) => {
   };
 
   return (
-    <nav className="flex justify-between items-center text-sm font-normal uppercase text-white pt-10 sm:pt-14 px-6 md:px-10 lg:px-16 font">
+    <nav className="flex justify-between items-center text-sm font-normal uppercase text-white pt-10 sm:pt-14 px-6 md:px-10 lg:px-16 font" id="Nav">
       <div className="flex items-center">
         <div className="">
           <div className={props.name}></div>
@@ -20,9 +20,6 @@ const Navbar = (props) => {
       </div>
       <div className="hidden md:block">
         <ul className="flex">
-          <li className="ml-6 hover:text-zinc-400">
-            <Link href="#Testimonial">Testimonials</Link>
-          </li>
           <li className="ml-6 hover:text-zinc-400">
             <Link href="#About">About</Link>
           </li>

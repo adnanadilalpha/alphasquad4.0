@@ -16,7 +16,7 @@ const Scte = () => {
           rel="stylesheet"
         />
       </Head>
-      <Navbar name="light" />
+      <Navbar name="light-wrap" />
       <Header
         title="Enter Here"
         desc="Enter Here - Mental Health Progressive Web app"

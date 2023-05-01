@@ -16,7 +16,7 @@ const Scte = () => {
           rel="stylesheet"
         />
       </Head>
-      <Navbar name="light" />
+      <Navbar name="light-wrap" />
       <Header title="Qloop" desc="Simplify the lease audit process." />
       <QloopVisual />
       <Button />

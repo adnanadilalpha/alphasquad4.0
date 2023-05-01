@@ -16,7 +16,7 @@ const Scte = () => {
           rel="stylesheet"
         />
       </Head>
-      <Navbar name="light" />
+      <Navbar name="light-wrap" />
       <Header title="Learnforce Platform" desc="Online Learning Platform" />
       <LearnVisual />
       <Button />

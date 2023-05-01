@@ -7,6 +7,7 @@ import local from "next/font/local";
 import Footer from "./components/Footer";
 import Team from "./components/main/Team";
 import Overview from "./components/main/Overview";
+import ScrollButton from "./components/main/ScrollButton";
 
 const Basement = local({ src: "../public/fonts/BasementGrotesque.otf" });
 
@@ -19,7 +20,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+{/* <ScrollButton /> */}
       <main className={Basement.className}>
         <Navbar name="light-wrap"/>
         <Header

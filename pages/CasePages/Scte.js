@@ -16,7 +16,7 @@ const Scte = () => {
           rel="stylesheet"
         />
       </Head>
-      <Navbar name="light" />
+      <Navbar name="light-wrap" />
       <Header
         title="SCTE - ISBE "
         desc="Digital transformation of SCTE’s 15 year old legacy system on a serverless infrastructure"

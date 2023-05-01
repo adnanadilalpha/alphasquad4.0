@@ -43,7 +43,7 @@ const Footer = () => {
         </div>
         <div className="md:w-96 text-right font w-full">
           <p className="text-zinc-400 text-center  xl:text-right text-xs sm:text-2xl font-light ">
-            © 2022 ALL RIGHTS RESERVED
+            © 2023 ALL RIGHTS RESERVED
           </p>
         </div>
       </div>
