@@ -4,7 +4,7 @@ import Swipeer from "./swiper";
 const Header = (props) => {
   return (
     <div className="px-4 md:px-24">
-      <div className="w-100 flex flex-col justify-center items-center mt-56 text-center">
+      <div className="w-100 flex flex-col justify-center items-center mt-36 text-center">
         <span className="text-base sm:text-3xl font-thin Dark-gray mb-2 leading-none sm:mb-4 uppercase Antonio">
           {props.title}
         </span>
