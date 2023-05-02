@@ -809,8 +809,9 @@ filter: blur(227px);
       rgba(0, 0, 0, 0.1) 0%,
       rgba(0, 0, 0, 0.5) 69.48%
     ),
-    url(../public/Assets/scte.png) no-repeat;
+    url(https://tuk-cdn.s3.amazonaws.com/can-uploader/scteh.png) no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .box-gs1:hover {
@@ -819,8 +820,9 @@ filter: blur(227px);
       rgba(0, 0, 0, 0.1) 0%,
       rgba(0, 0, 0, 0.9) 69.48%
     ),
-    url(../public/Assets/gs11.webp);
+    url(https://tuk-cdn.s3.amazonaws.com/can-uploader/gs11.webp);
   background-size: cover;
+  background-position: center;
 }
 
 .box-sxm:hover {
@@ -829,8 +831,9 @@ filter: blur(227px);
       rgba(0, 0, 0, 0.1) 0%,
       rgba(0, 0, 0, 0.9) 69.48%
     ),
-    url(../public/Assets/sxm1.webp);
+    url(https://tuk-cdn.s3.amazonaws.com/can-uploader/sxm1.webp);
   background-size: cover;
+  background-position: center;
 }
 
 .box-mouse:hover {
@@ -839,8 +842,9 @@ filter: blur(227px);
       rgba(0, 0, 0, 0.1) 0%,
       rgba(0, 0, 0, 0.9) 69.48%
     ),
-    url(../public/Assets/mouse.png);
+    url(https://tuk-cdn.s3.amazonaws.com/can-uploader/mouse.png);
   background-size: cover;
+  background-position: center;
 }
 
 .box-learn:hover {
@@ -849,8 +853,9 @@ filter: blur(227px);
       rgba(0, 0, 0, 0.1) 0%,
       rgba(0, 0, 0, 0.9) 69.48%
     ),
-    url(../public/Assets/learnforceh.png);
+    url(https://tuk-cdn.s3.amazonaws.com/can-uploader/learnforceh.png);
   background-size: cover;
+  background-position: center;
 }
 
 .wrap-box-2 {
@@ -1428,8 +1433,9 @@ filter: blur(227px);
         rgba(0, 0, 0, 0.1) 0%,
         rgba(0, 0, 0, 0.5) 69.48%
       ),
-      url(../public/Assets/scte.png) no-repeat;
-    background-size: cover;
+      url(https://tuk-cdn.s3.amazonaws.com/can-uploader/scteh.png) no-repeat;
+      background-size: cover;
+      background-position: center;
   }
 
   .box-sxm {
@@ -1438,8 +1444,9 @@ filter: blur(227px);
         rgba(0, 0, 0, 0.1) 0%,
         rgba(0, 0, 0, 0.9) 69.48%
       ),
-      url(../public/Assets/sxm1.webp);
+      url(https://tuk-cdn.s3.amazonaws.com/can-uploader/sxm1.webp);
     background-size: cover;
+    background-position: center;
   }
   
   .box-mouse {
@@ -1448,8 +1455,9 @@ filter: blur(227px);
         rgba(0, 0, 0, 0.1) 0%,
         rgba(0, 0, 0, 0.9) 69.48%
       ),
-      url(../public/Assets/mouse.png);
-    background-size: cover;
+      url(https://tuk-cdn.s3.amazonaws.com/can-uploader/mouse.png);
+      background-size: cover;
+      background-position: center;
   }
   
   .box-learn {
@@ -1458,8 +1466,9 @@ filter: blur(227px);
         rgba(0, 0, 0, 0.1) 0%,
         rgba(0, 0, 0, 0.9) 69.48%
       ),
-      url(../public/Assets/learnforceh.png);
-    background-size: cover;
+      url(https://tuk-cdn.s3.amazonaws.com/can-uploader/learnforceh.png);
+      background-size: cover;
+      background-position: center;
   }
 
   .box-gs1 {
@@ -1470,8 +1479,9 @@ filter: blur(227px);
         rgba(0, 0, 0, 0.1) 0%,
         rgba(0, 0, 0, 0.9) 69.48%
       ),
-      url(../public/Assets/gs11.webp);
+      url(https://tuk-cdn.s3.amazonaws.com/can-uploader/gs11.webp);
     background-size: cover;
+    background-position: center;
   }
 
   .box-nys {
@@ -1603,38 +1613,48 @@ filter: blur(227px);
         rgba(0, 0, 0, 0.1) 0%,
         rgba(0, 0, 0, 0.5) 69.48%
       ),
-      url(../public/Assets/scte.png) no-repeat;
-    background-size: cover;
+      url(https://tuk-cdn.s3.amazonaws.com/can-uploader/scteh.png) no-repeat;
+      background-size: cover;
+      background-position: center;
   }
 
   .box-sxm {
+    border-left: 0;
+    border-right: 0;
     background: linear-gradient(
         180deg,
         rgba(0, 0, 0, 0.1) 0%,
         rgba(0, 0, 0, 0.9) 69.48%
       ),
-      url(../public/Assets/sxm1.webp);
+      url(https://tuk-cdn.s3.amazonaws.com/can-uploader/sxm1.webp);
     background-size: cover;
+    background-position: center;
   }
   
   .box-mouse {
+    border-left: 0;
+    border-right: 0;
     background: linear-gradient(
         180deg,
         rgba(0, 0, 0, 0.1) 0%,
         rgba(0, 0, 0, 0.9) 69.48%
       ),
-      url(../public/Assets/mouse.png);
-    background-size: cover;
+      url(https://tuk-cdn.s3.amazonaws.com/can-uploader/mouse.png);
+      background-size: cover;
+      background-position: center;
   }
   
   .box-learn {
+    border-left: 0;
+    border-right: 0;
     background: linear-gradient(
         180deg,
         rgba(0, 0, 0, 0.1) 0%,
         rgba(0, 0, 0, 0.9) 69.48%
       ),
-      url(../public/Assets/learnforceh.png);
-    background-size: cover;
+      url(https://tuk-cdn.s3.amazonaws.com/can-uploader/learnforceh.png);
+      background-size: cover;
+      background-position: center;
   }
 
   .box-gs1 {
@@ -1645,8 +1665,9 @@ filter: blur(227px);
         rgba(0, 0, 0, 0.1) 0%,
         rgba(0, 0, 0, 0.9) 69.48%
       ),
-      url(../public/Assets/gs11.webp);
+      url(https://tuk-cdn.s3.amazonaws.com/can-uploader/gs11.webp);
     background-size: cover;
+    background-position: center;
   }
 
   .box-nys {
