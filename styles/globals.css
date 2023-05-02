@@ -20,7 +20,7 @@
 
 .img-size {
   max-width: 621px;
-  max-height: 658px;
+  height: 658px;
 }
 
 
@@ -82,12 +82,24 @@ swiper-slide {
     padding-left: 112px;
     padding-right: 112px;
   }
+
+  .Ml {
+    margin-left: 48px;
+  }
+
+  .img-size {
+    max-width: 621px;
+    height: 621px;
+  }
 }
 
-@media screen and (max-width: 1280px) {
+
+
+
+@media screen and (max-width: 1270px) {
   .img-size {
-    max-width: 744px;
-    max-height: 642px;
+    max-width: 1075px;
+    height: 1032px;
   }
 }
 
@@ -103,14 +115,19 @@ swiper-slide {
   }
 
   .img-size {
-    max-width: 100%;
-    max-height: 100%;;
+    max-width: 1075px;
+    height: 1032px;
   }
 }
 
 @media screen and (max-width: 744px) {
   .margin-top {
     margin-top: 296px;
+  }
+
+  .img-size {
+    max-width: 100%;
+    height: 100%;
   }
 
   .px-595 {
