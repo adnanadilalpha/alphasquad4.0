@@ -54,7 +54,7 @@ const overview = () => {
             <div className="box-learn">
               <p className="tagline">LEARNFORCE</p>
               <p className="description">
-              Developing One of Europe’s biggest Online Learning Platforms (PaaS)
+              Developing One of Europe’s biggest Online Learning Platforms
               </p>
             </div>
           </Link>
