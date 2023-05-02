@@ -107,9 +107,9 @@ const overview = () => {
         </div>
 
 
-<div className="flex items-center justify-center mt-96 absolute w-full">
+<div className="flex items-center justify-center Mt absolute w-full">
           <div class="border border-zinc-700  box-center">
-            <p class="text-zinc-400 Basement text-3xl uppercase font-extrabold px-28 py-14">
+            <p class="text-zinc-400 Basement text-sm md:text-lg 2xl:text-3xl uppercase font-extrabold px-10 md:px-10 2xl:px-28 py-4 md:py-6 2xl:py-14">
                 By the numbers
             </p>
         </div>

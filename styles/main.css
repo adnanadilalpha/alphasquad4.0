@@ -9,6 +9,10 @@ background: #6F6E6E;
 filter: blur(227px);
 }
 
+.Mt {
+  margin-top: 390px;
+}
+
 .box-center {
   background-color: #000000;
   z-index: 9999;
@@ -1194,6 +1198,10 @@ filter: blur(227px);
     
   }
 
+  .Mt {
+    margin-top: 420px;
+  }
+
   .gif-team {
     width: 400px;
     left: 445px;
@@ -1407,6 +1415,10 @@ filter: blur(227px);
     margin-top: 64px;
   }
 
+  .Mt {
+    margin-top: 420px;
+  }
+
   .box-scte {
     border-top: 0;
     border-left: 0;
@@ -1480,6 +1492,21 @@ filter: blur(227px);
     height: 90px;
     font-size: 16px;
     line-height: 140%;
+  }
+
+  .light-wrap {
+    position: absolute;
+    width: 203px;
+    height: 223px;
+    left: 100px;
+    top: -182px;
+    
+    background: #6F6E6E;
+    
+  }
+
+  .Mt {
+    margin-top: 170px;
   }
 
   .wrap-anima {

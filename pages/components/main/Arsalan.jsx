@@ -3,7 +3,7 @@ import React from 'react'
 function Arsalan() {
   return (
     // Title
-<div className='flex-none xl:flex border-t border-zinc-700' id='About'>
+<div className='flex flex-col 2xl:flex xl:flex-row border-t border-zinc-700' id='About'>
 {/* Container details */}
 <div className='Ml'>
 <div className='flex items-center Urbanist font-semibold text-5xl mb-4 mt-12 text-white'>
@@ -12,12 +12,12 @@ function Arsalan() {
     </div>
 
     {/* subtitle */}
-    <div className='light-gray Urbanist font-light text-lg mb-9'>
+    <div className='light-gray Urbanist font-light text-lg mb-8 2xl:mb-9'>
         <p>Veteran Systems Architect & Full Stack Developer</p>
     </div>
 
     {/* Description */}
-    <div className='light-gray font-light text-lg font mr-6 xl:mr-24'>
+    <div className='light-gray font-light text-lg font mr-6 2xl:mr-24'>
         <p>
         I stand by one thing and one thing only and that's GSD 
         (Getting S**t Done, prolly should trademark GSD). 
@@ -39,7 +39,7 @@ function Arsalan() {
         
         <br/> <br/>
 
-        <ul className='list-disc mb-12 pl-8'>
+        <ul className='list-disc mb-8 2xl:mb-12 pl-4'>
 <li>Top 1% Full-Stack Developer on Upwork</li>
 <li>Over $5 million in revenue</li>
 <li>Consultant for Fortune 500 companies such as Toyota NA, GS1, and SCTE</li>
