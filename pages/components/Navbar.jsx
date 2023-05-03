@@ -21,13 +21,13 @@ const Navbar = (props) => {
       <div className="hidden md:block">
         <ul className="flex">
           <li className="ml-6 hover:text-zinc-400 hover:cursor-pointer">
-            <Link to="About" spy={true} smooth={true} offset={-100} duration={1000}>About</Link>
+            <Link to="About" spy={true} smooth={true} offset={-100} duration={2000}>About</Link>
           </li>
           <li className="ml-6 hover:text-zinc-400 active:text-zinc-400 hover:cursor-pointer">
-            <Link to="Portfolio" spy={true} smooth={true} offset={-100} duration={1000} className="">Portfolio</Link>
+            <Link to="Portfolio" spy={true} smooth={true} offset={-100} duration={2000} className="">Portfolio</Link>
           </li>
           <li className="ml-6 hover:text-zinc-400 hover:cursor-pointer">
-            <Link to="Stats" spy={true} smooth={true} offset={-150} duration={1000}>Stats</Link>
+            <Link to="Stats" spy={true} smooth={true} offset={-150} duration={2000}>Stats</Link>
           </li>
           <li className="ml-6 hover:text-zinc-400">
             <a href="https://calendly.com/aqk-dev/intro-call?month=2023-05" target="_blank" >Book a consultation</a>
@@ -71,7 +71,7 @@ const Navbar = (props) => {
             <ul className="flex flex-col text-center justify-center">
               <li className="mb-16">
                 <Link
-                  href="/alphaway"
+                  to="About"
                   className="text-xl font-semibold text-white"
                 >
                   <div className="flex justify-between px-4 pb-8">
@@ -85,7 +85,7 @@ const Navbar = (props) => {
               </li>
               <li className="mb-16">
                 <Link
-                  href="/people"
+                  to="Portfolio"
                   className="text-xl font-semibold text-white"
                 >
                   <div className="flex justify-between px-4 pb-8">
@@ -97,7 +97,7 @@ const Navbar = (props) => {
                   </div>
                 </Link>
               </li>
-              <Link href="/dope" className="text-xl font-semibold text-white">
+              <Link to="Stats" className="text-xl font-semibold text-white">
                 <li className="mb-16">
                   <div className="flex justify-between px-4 pb-8">
                   Stats
@@ -109,12 +109,12 @@ const Navbar = (props) => {
                 </li>
               </Link>
               <li>
-                <Link href="/book" className="text-xl font-semibold text-white">
+                <a href="https://calendly.com/aqk-dev/intro-call?month=2023-05" target="_blank" className="text-xl font-semibold text-white">
                   <div className="flex justify-between px-4 pb-8">
                     Book a consultation
                     <img src="../Assets/arrow.svg" alt="" />
                   </div>
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
