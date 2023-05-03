@@ -23,7 +23,7 @@ export default function Home() {
       </Head>
 {/* <ScrollButton /> */}
       <main className={Basement.className}>
-        <Navbar name="light-wrap" none="none" logo={[        <Link to="Header" spy={true} smooth={true} offset={-150}>
+        <Navbar name="light-wrap" none="none" logo={[        <Link to="Header" spy={true} smooth={true} offset={-150} duration={2000}>
           <img src="../images/logoalpha.svg" className="w-8" />
         </Link>]}/>
         <Header
