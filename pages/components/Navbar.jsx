@@ -1,6 +1,6 @@
-import Link from "next/link";
 import { useState } from "react";
-
+import link from "next/link";
+import { Link } from "react-scroll/modules";
 const Navbar = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -9,28 +9,28 @@ const Navbar = (props) => {
   };
 
   return (
-    <nav className="flex justify-between items-center text-sm font-normal uppercase text-white pt-10 sm:pt-14 px-6 md:px-10 lg:px-16 font" id="Nav">
-      <div className="flex items-center">
+    <nav className="fixed inset-x-0 top-0 bg-black flex justify-between items-center text-sm font-normal uppercase text-white pt-10 sm:pt-14 px-6 md:px-10 lg:px-16 font z-50" id="Nav">
+      <div className="flex items-center hover:cursor-pointer">
         <div className="">
-          <div className={props.name}></div>
+          <div  className={props.name}></div>
         </div>
-        <Link href="/">
-          <img src="../images/logoalpha.svg" className="w-8" />
-        </Link>
+<div>
+  {props.logo}
+</div>
       </div>
       <div className="hidden md:block">
         <ul className="flex">
-          <li className="ml-6 hover:text-zinc-400">
-            <Link href="#About">About</Link>
+          <li className="ml-6 hover:text-zinc-400 hover:cursor-pointer">
+            <Link to="About" spy={true} smooth={true} offset={-100} duration={1000}>About</Link>
+          </li>
+          <li className="ml-6 hover:text-zinc-400 active:text-zinc-400 hover:cursor-pointer">
+            <Link to="Portfolio" spy={true} smooth={true} offset={-100} duration={1000} className="">Portfolio</Link>
+          </li>
+          <li className="ml-6 hover:text-zinc-400 hover:cursor-pointer">
+            <Link to="Stats" spy={true} smooth={true} offset={-150} duration={1000}>Stats</Link>
           </li>
           <li className="ml-6 hover:text-zinc-400">
-            <Link href="#Portfolio">Portfolio</Link>
-          </li>
-          <li className="ml-6 hover:text-zinc-400">
-            <Link href="#Stats">Stats</Link>
-          </li>
-          <li className="ml-6 hover:text-zinc-400">
-            <Link href="/book">Book a consultation</Link>
+            <a href="https://calendly.com/aqk-dev/intro-call?month=2023-05" target="_blank" >Book a consultation</a>
           </li>
         </ul>
       </div>
@@ -75,7 +75,7 @@ const Navbar = (props) => {
                   className="text-xl font-semibold text-white"
                 >
                   <div className="flex justify-between px-4 pb-8">
-                    The Alpha way
+                  About
                     <img src="../Assets/arrow.svg" alt="" />
                   </div>
                   <div className="flex justify-center items-center">
@@ -89,7 +89,7 @@ const Navbar = (props) => {
                   className="text-xl font-semibold text-white"
                 >
                   <div className="flex justify-between px-4 pb-8">
-                    The people
+                  Portfolio
                     <img src="../Assets/arrow.svg" alt="" />
                   </div>
                   <div className="flex justify-center items-center">
@@ -100,7 +100,7 @@ const Navbar = (props) => {
               <Link href="/dope" className="text-xl font-semibold text-white">
                 <li className="mb-16">
                   <div className="flex justify-between px-4 pb-8">
-                    Dope Stuff
+                  Stats
                     <img src="../Assets/arrow.svg" alt="" />
                   </div>
                   <div className="flex justify-center items-center">

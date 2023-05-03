@@ -10,27 +10,27 @@ const Visual = () => {
       <div className="item">
         <div class="">
           <div class="hero-1">
-            <img src="../Assets/scteh.png" alt="" class="sctesvg tex" />
+            <img src="../Assets/scteh.webp" alt="" class="sctesvg tex" />
           </div>
         </div>
         <TextBox
           title="SCTE - IBSE"
-          subTitle="As a non-profit entity whose board includes companies like Comcast and Charter Communications, 
-                the client was under constant pressure to deliver maximum value from the products and services it offers. 
-                Several prior attempts to automate core business functions and move them to the cloud had failed.
-                 The client had a strong in-house IT team but no authoritative plan for the future, 
-                 and was rapidly losing ground to competitors due to the accrual of technical debt."
+          subTitle="SCTE·ISBE is the leader in standards development for the cable industry. 
+            The organization provides standards and certifications across related areas of expertise.
+            It also serves as a outlet for networking, learning, 
+            and sharing industry expertise. In addition to documentation and educational tools, 
+            SCTE hosts Cabletech EXPO, a premier annual event for both members and non-members."
         />
       </div>
 
       <div className="item">
         <TextBox
           title="Context"
-          subTitle="SCTE·ISBE is the leader in standards development for the cable industry. 
-            The organization provides standards and certifications across related areas of expertise.
-            It also serves as a outlet for networking, learning, 
-            and sharing industry expertise. In addition to documentation and educational tools, 
-            SCTE hosts Cabletech EXPO, a premier annual event for both members and non-members."
+          subTitle="As a non-profit entity whose board includes companies like Comcast and Charter Communications, 
+                the client was under constant pressure to deliver maximum value from the products and services it offers. 
+                Several prior attempts to automate core business functions and move them to the cloud had failed.
+                 The client had a strong in-house IT team but no authoritative plan for the future, 
+                 and was rapidly losing ground to competitors due to the accrual of technical debt."
         />
 
         <ContentBox

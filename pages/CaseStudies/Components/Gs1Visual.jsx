@@ -66,7 +66,7 @@ the information on the go.
 "
         />
 
-        <div class="container-4 ">
+        <div class="flex justify-center">
           <img src="../Assets/gs16.webp" alt="" />
         </div>
       </div>

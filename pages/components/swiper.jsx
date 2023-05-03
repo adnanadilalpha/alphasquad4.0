@@ -27,7 +27,7 @@ export default function Swipeer() {
       >
         <SwiperSlide>
           <div className="flex flex-col items-center gap-y-8">
-            <p className="text-xl md:text-3xl text-zinc-400 font font-normal">
+            <p className="text-xl md:text-2xl text-zinc-400 font font-normal">
             ‘The man, the myth, the legend. Arslan is a go-getter who’s come through 
             for us numerous times during the last 15 months. 
             Whether it’s coming with complex architectures, 
@@ -43,7 +43,7 @@ export default function Swipeer() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="flex flex-col items-center gap-y-8 font">
-            <p className="text-xl md:text-3xl text-zinc-400 font font-normal">
+            <p className="text-xl md:text-2xl text-zinc-400 font font-normal">
             “Led by Arslan, this is the the best design and development studio we’ve worked with throughout the years.”
             </p>
             <div className="w-2/4 border border-zinc-400 h-0"></div>
@@ -55,7 +55,7 @@ export default function Swipeer() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="flex flex-col items-center gap-y-8 font">
-            <p className="text-xl md:text-3xl text-zinc-400 leading-10 font font-normal">
+            <p className="text-xl md:text-2xl text-zinc-400 leading-10 font font-normal">
             Arslan is an outstanding developer with an unwavering commitment to excellence. 
             His technical skills are second to none, and he always goes 
             above and beyond to deliver high-quality work that meets or 
@@ -70,7 +70,7 @@ export default function Swipeer() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="flex flex-col items-center gap-y-8 font">
-            <p className="text-xl md:text-3xl text-zinc-400 font font-normal">
+            <p className="text-xl md:text-2xl text-zinc-400 font font-normal">
             “Loved working with Arslan and the team. Great leaders and skilled 
             professionals in the creation of a SaaS solution.”
             </p>
@@ -83,7 +83,7 @@ export default function Swipeer() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="flex flex-col items-center gap-y-8 font">
-            <p className="text-xl md:text-3xl text-zinc-400 font font-normal">
+            <p className="text-xl md:text-2xl text-zinc-400 font font-normal">
             "Great ideas and initiative by Arslan. Very good understanding of what 
             working in a team is and how to deliver value."
             </p>
@@ -96,7 +96,7 @@ export default function Swipeer() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="flex flex-col items-center gap-y-8 font">
-            <p className="text-xl md:text-3xl text-zinc-400 font font-normal">
+            <p className="text-xl md:text-2xl text-zinc-400 font font-normal">
             “Thank you so much for the time and help that Arslan and the 
             team have provided to us. We are very grateful for 
             the opportunity to work together and would recommend to anyone in the future”
@@ -110,7 +110,7 @@ export default function Swipeer() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="flex flex-col items-center gap-y-8 font">
-            <p className="text-xl md:text-3xl text-zinc-400 font font-normal">
+            <p className="text-xl md:text-2xl text-zinc-400 font font-normal">
             Fantastic individual, great communication, and understanding of the product and technology.
             </p>
             <div className="w-2/4 border border-zinc-400 h-0"></div>
@@ -122,7 +122,7 @@ export default function Swipeer() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="flex flex-col items-center gap-y-8 font">
-            <p className="text-xl md:text-3xl text-zinc-400 font font-normal">
+            <p className="text-xl md:text-2xl text-zinc-400 font font-normal">
             “Great work. Clear communication, regular updates and quality product. Can't ask for anything more."
             </p>
             <div className="w-2/4 border border-zinc-400 h-0"></div>
@@ -134,7 +134,7 @@ export default function Swipeer() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="flex flex-col items-center gap-y-8 font">
-            <p className="text-xl md:text-3xl text-zinc-400 font font-normal">
+            <p className="text-xl md:text-2xl text-zinc-400 font font-normal">
             “Excellent experience with Arslan. He jumped right into the project, was exceptionally communicative, 
             and offered suggestions/improvements beyond the original 
             "ask." He didn't need to ask many questions, worked crazy fast, 

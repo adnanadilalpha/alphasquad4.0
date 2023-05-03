@@ -2,7 +2,7 @@
   position: absolute;
 width: 563px;
 height: 563px;
-left: 40%;
+left: 35%;
 top: -421px;
 
 background: #6F6E6E;
@@ -809,9 +809,7 @@ filter: blur(227px);
       rgba(0, 0, 0, 0.1) 0%,
       rgba(0, 0, 0, 0.5) 69.48%
     ),
-    url(../public/Assets/scteh.webp) no-repeat;
-  background-size: cover;
-  background-position: center;
+    url(../public/Assets/sctemain.webp) no-repeat;
 }
 
 .box-gs1:hover {
@@ -820,9 +818,8 @@ filter: blur(227px);
       rgba(0, 0, 0, 0.1) 0%,
       rgba(0, 0, 0, 0.9) 69.48%
     ),
-    url(../public/Assets/gs11.webp);
+    url(../public/Assets/pic7.webp);
   background-size: cover;
-  background-position: center;
 }
 
 .box-sxm:hover {
@@ -831,9 +828,8 @@ filter: blur(227px);
       rgba(0, 0, 0, 0.1) 0%,
       rgba(0, 0, 0, 0.9) 69.48%
     ),
-    url(../public/Assets/sxm1.webp);
+    url(../public/Assets/sxmmain.webp);
   background-size: cover;
-  background-position: center;
 }
 
 .box-mouse:hover {
@@ -842,9 +838,7 @@ filter: blur(227px);
       rgba(0, 0, 0, 0.1) 0%,
       rgba(0, 0, 0, 0.9) 69.48%
     ),
-    url(../public/Assets/mouse.webp);
-  background-size: cover;
-  background-position: center;
+    url(../public/Assets/mousemain.webp);
 }
 
 .box-learn:hover {
@@ -853,9 +847,8 @@ filter: blur(227px);
       rgba(0, 0, 0, 0.1) 0%,
       rgba(0, 0, 0, 0.9) 69.48%
     ),
-    url(../public/Assets/learnforceh.webp);
+    url(../public/Assets/lfmain.webp);
   background-size: cover;
-  background-position: center;
 }
 
 .wrap-box-2 {
@@ -1194,10 +1187,10 @@ filter: blur(227px);
 
   .light-wrap {
     position: absolute;
-    width: 273px;
-    height: 273px;
-    left: 500px;
-    top: -162px;
+    width: 563px;
+    height: 563px;
+    left: 25%;
+    top: -421px;
     
     background: #6F6E6E;
     
@@ -1275,7 +1268,7 @@ filter: blur(227px);
     position: absolute;
     width: 273px;
     height: 273px;
-    left: 220px;
+    left: 35%;
     top: -202px;
     
     background: #6F6E6E;
@@ -1433,8 +1426,6 @@ filter: blur(227px);
         rgba(0, 0, 0, 0.5) 69.48%
       ),
       url(../public/Assets/scteh.webp) no-repeat;
-      background-size: cover;
-      background-position: center;
   }
 
   .box-sxm {
@@ -1443,7 +1434,7 @@ filter: blur(227px);
         rgba(0, 0, 0, 0.1) 0%,
         rgba(0, 0, 0, 0.9) 69.48%
       ),
-      url(../public/Assets/sxm1.webp);
+      url(../public/Assets/sxmmain.webp);
     background-size: cover;
     background-position: center;
   }
@@ -1454,9 +1445,7 @@ filter: blur(227px);
         rgba(0, 0, 0, 0.1) 0%,
         rgba(0, 0, 0, 0.9) 69.48%
       ),
-      url(../public/Assets/mouse.webp);
-      background-size: cover;
-      background-position: center;
+      url(../public/Assets/mousemain.webp);
   }
   
   .box-learn {
@@ -1465,7 +1454,7 @@ filter: blur(227px);
         rgba(0, 0, 0, 0.1) 0%,
         rgba(0, 0, 0, 0.9) 69.48%
       ),
-      url(../public/Assets/learnforceh.webp);
+      url(../public/Assets/lfmain.webp);
       background-size: cover;
       background-position: center;
   }
@@ -1478,9 +1467,8 @@ filter: blur(227px);
         rgba(0, 0, 0, 0.1) 0%,
         rgba(0, 0, 0, 0.9) 69.48%
       ),
-      url(../public/Assets/gs11.webp);
+      url(../public/Assets/pic7.webp);
     background-size: cover;
-    background-position: center;
   }
 
   .box-nys {
@@ -1507,7 +1495,7 @@ filter: blur(227px);
     position: absolute;
     width: 203px;
     height: 223px;
-    left: 100px;
+    left: 35%;
     top: -182px;
     
     background: #6F6E6E;
@@ -1611,9 +1599,7 @@ filter: blur(227px);
         rgba(0, 0, 0, 0.1) 0%,
         rgba(0, 0, 0, 0.5) 69.48%
       ),
-      url(../public/Assets/scteh.webp) no-repeat;
-      background-size: cover;
-      background-position: center;
+      url(../public/Assets/sctemain.webp) no-repeat;
   }
 
   .box-sxm {
@@ -1624,9 +1610,7 @@ filter: blur(227px);
         rgba(0, 0, 0, 0.1) 0%,
         rgba(0, 0, 0, 0.9) 69.48%
       ),
-      url(../public/Assets/sxm1.webp);
-    background-size: cover;
-    background-position: center;
+      url(../public/Assets/sxmmain.webp);
   }
   
   .box-mouse {
@@ -1637,9 +1621,7 @@ filter: blur(227px);
         rgba(0, 0, 0, 0.1) 0%,
         rgba(0, 0, 0, 0.9) 69.48%
       ),
-      url(../public/Assets/mouse.webp);
-      background-size: cover;
-      background-position: center;
+      url(../public/Assets/mousemain.webp);
   }
   
   .box-learn {
@@ -1650,9 +1632,7 @@ filter: blur(227px);
         rgba(0, 0, 0, 0.1) 0%,
         rgba(0, 0, 0, 0.9) 69.48%
       ),
-      url(../public/Assets/learnforceh.webp);
-      background-size: cover;
-      background-position: center;
+      url(../public/Assets/lfmain.webp);
   }
 
   .box-gs1 {
@@ -1663,9 +1643,7 @@ filter: blur(227px);
         rgba(0, 0, 0, 0.1) 0%,
         rgba(0, 0, 0, 0.9) 69.48%
       ),
-      url(../public/Assets/gs11.webp);
-    background-size: cover;
-    background-position: center;
+      url(../public/Assets/pic7.webp);
   }
 
   .box-nys {
@@ -1677,7 +1655,6 @@ filter: blur(227px);
         rgba(0, 0, 0, 0.9) 69.48%
       ),
       url(../images/sun.webp);
-    background-size: cover;
   }
 
   .box-stuff {

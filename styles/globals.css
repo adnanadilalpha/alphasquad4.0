@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 
+.scroll {
+  scroll-behavior: smooth;
+}
+
 /* colors predefined */
 
 .Dark-gray {
@@ -45,12 +49,12 @@
 }
 
 .margin-top {
-  margin-top: 616px;
+  margin-top: 608px;
 }
 
 .px-595 {
-  padding-left: 565px;
-  padding-right: 565px;
+  padding-left: 529px;
+  padding-right: 529px;
 }
 
 .item {

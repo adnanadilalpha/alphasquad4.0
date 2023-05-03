@@ -16,7 +16,9 @@ const Scte = () => {
           rel="stylesheet"
         />
       </Head>
-      <Navbar name="light-wrap" />
+      <Navbar name="light-wrap"  logo={[<a href="/">
+          <img src="../images/logoalpha.svg" className="w-8" />
+        </a>]}/>
       <Header
         title="SCTE - ISBE "
         desc="Digital transformation of SCTE’s 15 year old legacy system on a serverless infrastructure"

@@ -6,7 +6,7 @@ import Arsalan from "./Arsalan";
 const overview = () => {
   function Cutton() {
     return (
-      <Link href="/book">
+      <Link href="https://calendly.com/aqk-dev/intro-call?month=2023-05" target="_blank">
         <p
           className="shiny tagline-4 text-center "
         >
