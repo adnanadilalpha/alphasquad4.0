@@ -16,7 +16,9 @@ const Mouse = () => {
             rel="stylesheet"
           />
         </Head>
-        <Navbar name="light-wrap" />
+        <Navbar name="light-wrap" logo={[<a href="/">
+          <img src="../images/logoalpha.svg" className="w-8" />
+        </a>]} />
         <Header
           title="Finalmouse"
           desc="Developing a repair management system with the speed of Flash and the power of Thor"

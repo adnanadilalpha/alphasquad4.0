@@ -7,15 +7,15 @@ const Visual = () => {
     <>
       <div className="item">
         <div class="hero">
-          <img src="../Assets/force1.webp" alt="" class="sctesvg tex" />
+          <img src="../Assets/learnforceh.webp" alt="" class="sctesvg tex" />
         </div>
 
         <TextBox
           title="LEARNFORCE PLATFORM "
-          subTitle="GS1 is a neutral, not-for-profit, international organization 
-developing and maintaining standards including barcodes. 
-The best known of these standards is the barcode, a symbol 
-printed on products that can be scanned electronically."
+          subTitle="A digital content creation company aimed towards bringing 
+          their idea of a digital learning platform to life. 
+          The necessity arose amidst the Covid-19 pandemic when 
+          educational institutions faced lockdowns imposed by the government."
         />
       </div>
 
@@ -31,16 +31,19 @@ printed on products that can be scanned electronically."
           ]}
         />
 
+
+        <Hero img="../Assets/force2.webp" />
+
         <TextBox
-          title="THIS IS WHAT WE CAME UP WITH"
+          title="SOLUTION"
           subTitle="The solution we designed was focused first and 
 foremost on a multi-tenant platform that allowed onboarding of the new institutions as easy as signing
  up on a social media platform. Each institution had its own user interface and shared only a 
  codebase with other institutions."
         />
+      </div>
 
-        <Hero img="../Assets/force2.webp" />
-
+<div className="item">
         <TextBox
           title="COURSES TEMPLATE"
           subTitle="The underlying infrastructure provides enough 
